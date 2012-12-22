@@ -1,0 +1,8 @@
+site_name: 'Aron Strandberg'
+source: ./src
+destination: ./site
+markdown: rdiscount
+rdiscount:
+    extensions: [smart]
+permalink: ./posts/:title
+paginate: 1
