@@ -12,7 +12,7 @@ title: Home
 <div id="pagination">
 	{% if paginator.previous_page %}
 		{% if paginator.previous_page == 1 %}
-			<a href="/">Previous</a>
+			<a href="/blog/">Previous</a>
 		{% else %}
 			<a href="/page{{ paginator.previous_page }}">Previous</a>
 		{% endif %}
@@ -21,7 +21,7 @@ title: Home
 	{% if paginator.total_pages > 1 %}
 		<ol id="pages">
 			{% for i in (1..paginator.total_pages) %}
-			  <li{% if i == paginator.page %} class="selected"{% endif %}><a href="/{% if i > 1 %}page{{ i }}{% endif %}">{{ i }}</a></li>
+			  <li{% if i == paginator.page %} class="selected"{% endif %}><a href="/blog/{% if i > 1 %}page{{ i }}{% endif %}">{{ i }}</a></li>
 			{% endfor %}
 		</ol>
 	{% endif %}
