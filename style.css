@@ -1,6 +1,7 @@
 body {
 	background: #fff;
-	font-family: 'Museo Sans 300', 'Myriad Pro', 'Verdana';
+	font-family: 'museo-sans', 'Myriad Pro', 'Verdana';
+	font-weight: 300;
 	font-size: 16px;
 	margin: 0 auto;
 	text-align: left;
@@ -27,7 +28,9 @@ body {
 }
 
 h1 {
-	font-family: 'Museo Slab 300';
+	font-family: "museo-slab",serif;
+	font-style: normal;
+	font-weight: 300;
 }
 
 a, a:visited {
