@@ -1,0 +1,88 @@
+$width: 100%;
+$black: #35332e;
+
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+em {
+	text-decoration: underline;
+}
+
+body {
+	@media screen and (max-width: 1280px) {
+		// width: 50%;
+	}
+	width: 90%;
+	max-width: 40em;
+	background: #fff;
+	font-size: 16px;
+
+	margin: 0 auto;
+	text-align: left;
+	font-family: Helvetica Neue;
+	color: $black;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.875em;
+}
+
+h3 {
+	font-size: 1.75em;
+}
+
+p {
+	font-size: 1em;
+}
+
+h1, h2, h3, h4, h5, h6, p, span {
+	margin: 10px 0;
+}
+
+a {
+	color: #49b27d;
+	text-decoration: none;
+
+	&:hover {
+		color: #3f996b;
+		text-decoration: underline;
+	}
+
+	&:visited {
+		color: #49b27d;
+	}
+}
+
+a.stealth-link {
+	color: $black;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+// header
+
+header {
+	width: $width;
+	margin-bottom: 50px;
+}
+
+ol, li {
+	display: inline;
+}
+
+// posts
+
+.post {
+	margin-bottom: 100px;
+}
