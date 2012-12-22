@@ -1,6 +1,6 @@
 body {
 	background: #fff;
-	font-family: 'Myriad Pro', 'Verdana';
+	font-family: 'Museo Sans', 'Myriad Pro', 'Verdana';
 	font-size: 16px;
 	margin: 0 auto;
 	text-align: left;
@@ -24,6 +24,10 @@ body {
 	body {
 		font-size: 1.5em;
 	}
+}
+
+h1 {
+	font-family: 'Museo Slab';
 }
 
 a, a:visited {
