@@ -4,6 +4,10 @@
 		%meta{:name => "author", :content => "Aron Strandberg"}/
 		%meta{:name => "viewport",
 		:content => "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"}
+		%script{:src => "//use.typekit.net/hjf8kwf.js"}
+		:javascript
+			try{Typekit.load();}catch(e){}
+
 	%body
 		%style
 			:sass
@@ -15,7 +19,9 @@
 					width: 90%
 					margin: 0 auto
 					font-size: 100%
-					font-family: 'Helvetica Neue'
+					font-family: 'museo-slab', serif
+					font-style: normal
+					font-weight: 300
 
 				.entry
 					margin-top: 25px
