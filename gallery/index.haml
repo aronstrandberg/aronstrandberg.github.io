@@ -4,14 +4,9 @@
 		%meta{:name => "author", :content => "Aron Strandberg"}/
 		%meta{:name => "viewport",
 		:content => "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"}
-		%script{:src => "//use.typekit.net/hjf8kwf.js"}
-		:javascript
-			try{Typekit.load();}catch(e){}
-
-	%body
 		%style
 			:sass
-				*
+				html, body, div, img, caption, p
 					margin: 0
 					padding: 0
 				body
@@ -22,21 +17,24 @@
 					font-family: 'museo-slab', serif
 					font-style: normal
 					font-weight: 300
-
 				.entry
 					margin-top: 25px
 					margin: 25px auto 0 auto
-
 				img
 					width: 99%
 					height: auto
 					margin: 0 auto
 					display: block
-
 				p
 					font-size: 2em
 					margin: 0 auto
 					text-align: center
+		%script{:src => "//use.typekit.net/hjf8kwf.js"}
+		:javascript
+			try{Typekit.load();}catch(e){}
+
+	%body
+
 		#main
 			.entry
 				%img{:src => "IMG_4080.JPG", :alt => ""}
