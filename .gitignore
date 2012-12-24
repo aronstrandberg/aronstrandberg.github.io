@@ -1,5 +1,5 @@
 *.sublime-workspace
 *.sublime-project
 *.haml
-.sass-cache
 *.sass
+.sass-cache
