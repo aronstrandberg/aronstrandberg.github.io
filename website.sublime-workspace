@@ -1,0 +1,939 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"list",
+				"list:n	list-style-type:none"
+			],
+			[
+				"outp",
+				"output_formulas"
+			],
+			[
+				"out",
+				"output_quantities_from"
+			],
+			[
+				"input",
+				"input	input - text"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"te",
+				"te	text-emphasis"
+			],
+			[
+				"ready",
+				"ready	document-ready"
+			],
+			[
+				"re",
+				"ret	return"
+			],
+			[
+				"con",
+				"connection"
+			],
+			[
+				"dar",
+				"darkcolor"
+			],
+			[
+				"pos",
+				"pos:f	position:fixed"
+			],
+			[
+				"Fe",
+				"FETCH_ASSOC"
+			],
+			[
+				"f",
+				"fv	font-variant"
+			],
+			[
+				"output",
+				"output_entry"
+			],
+			[
+				"N",
+				"NULL"
+			],
+			[
+				"Fo",
+				"Formula"
+			],
+			[
+				"po",
+				"pos:f	position:fixed"
+			],
+			[
+				"php",
+				"php"
+			],
+			[
+				"show",
+				"showInputDialog"
+			],
+			[
+				"link",
+				"link	link - stylesheet"
+			],
+			[
+				"draw_m",
+				"draw_normal"
+			],
+			[
+				"prefix",
+				"prefixes"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"miles",
+				"milesdouble"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"a",
+				"a	<a>"
+			],
+			[
+				"heio",
+				"height	zen:css_properties"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"color",
+				"colorinput"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"ran",
+				"randomColor"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 727,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/_layouts/default.html",
+			"settings":
+			{
+				"buffer_size": 315,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "gallery/index.html",
+			"settings":
+			{
+				"buffer_size": 2867,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "gallery/index.haml",
+			"settings":
+			{
+				"buffer_size": 1882,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/JSLint/JSLint.sublime-build",
+	"command_palette":
+	{
+		"height": 135.0,
+		"selected_items":
+		[
+			[
+				"haml",
+				"Set Syntax: Ruby Haml"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"html5",
+				"Set Syntax: HTML5"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ruby",
+				"Format: Ruby"
+			],
+			[
+				"yaml",
+				"Set Syntax: YAML"
+			],
+			[
+				"syjq",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"ready",
+				"Snippet: document ready - jQuery"
+			],
+			[
+				"docyu",
+				"Snippet: document ready - jQuery"
+			],
+			[
+				"jqa",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"pla",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"jslint",
+				"JSLint"
+			],
+			[
+				"lint",
+				"Tag: Lint Selection or Document"
+			],
+			[
+				"document",
+				"Snippet: document ready - jQuery"
+			],
+			[
+				"jq",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"syntax jq",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"syn jq",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"jquert",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"upload",
+				"FTPSync: Upload current file"
+			],
+			[
+				"up",
+				"FTPSync: Upload current file"
+			],
+			[
+				"ftp",
+				"FTPSync: Setup FTPSync in this folder"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"mark",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"markd",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"markdown",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"tidy",
+				"Tidy HTML"
+			],
+			[
+				"sy jq",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"zencoding",
+				"Set Syntax: ZenCoding"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"ui",
+				"FTPSync: Upload current file"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"javaa",
+				"Set Syntax: JavaScript (Rails)"
+			],
+			[
+				"comp",
+				"Coffee: Compile File"
+			],
+			[
+				"coffee",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"preview",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"cofee",
+				"Coffee: Compile File"
+			],
+			[
+				"coffe",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"batch",
+				"Set Syntax: Batch File"
+			],
+			[
+				"mar",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"markdo",
+				"Markdown Preview: open Markdown Cheat sheet"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"tw",
+				"Twitter timeline"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"in'",
+				"Snippet: $('#select DOM Element')"
+			],
+			[
+				"format",
+				"Format: Javascript"
+			],
+			[
+				"5",
+				"Set Syntax: HTML5"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"HTML5",
+				"Set Syntax: HTML5"
+			],
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"IN",
+				"Package Control: Install Package"
+			],
+			[
+				"math",
+				"Snippet: java.math."
+			],
+			[
+				"tid",
+				"Tidy HTML"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"t",
+				"Tidy HTML"
+			],
+			[
+				"ti",
+				"Tidy HTML"
+			],
+			[
+				"zenas",
+				"Zen Coding: Zen as you type"
+			],
+			[
+				"zen",
+				"Set Syntax: ZenCoding"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"zen as ",
+				"Zen Coding: Zen as you type"
+			],
+			[
+				"com",
+				"Coffee: Compile File"
+			],
+			[
+				"compi",
+				"Coffee: Compile File"
+			],
+			[
+				"cof",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"doctype",
+				"Snippet: DOCTYPE HTML"
+			],
+			[
+				"DOC",
+				"Snippet: DOCTYPE HTML"
+			],
+			[
+				"jquer",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"wrap",
+				"Zen Coding: Wrap zen as you type"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Disable Package"
+			],
+			[
+				"prett",
+				"HTMLPrettify: Prettify"
+			],
+			[
+				"instak",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 514.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": true
+	},
+	"file_history":
+	[
+		"/C/Users/Aron/aronstrandberg.github.com/.gitignore",
+		"/C/Users/Aron/aronstrandberg.github.com/index.html",
+		"/C/Users/Aron/aronstrandberg.github.com/index.haml",
+		"/C/Users/Aron/aronstrandberg.github.com/indexlol.html",
+		"/C/Users/Aron/aronstrandberg.github.com/src/index.html",
+		"/C/Users/Aron/aronstrandberg.github.com/src/index.haml",
+		"/C/Users/Aron/aronstrandberg.github.com/wishlist.html",
+		"/C/Users/Aron/aronstrandberg.github.com/src/_includes/header.html",
+		"/C/Users/Aron/aronstrandberg.github.com/src/_includes/header.haml",
+		"/C/Users/Aron/aronstrandberg.github.com/src/_layouts/default.haml",
+		"/C/Users/Aron/aronstrandberg.github.com/src/_layouts/post.haml",
+		"/C/Users/Aron/aronstrandberg.github.com/src/_layouts/postlol.html",
+		"/C/Users/Aron/aronstrandberg.github.com/src/_layouts/post.html",
+		"/C/Users/Aron/aronstrandberg.github.com/src/_layouts/post.html.haml",
+		"/C/Users/Aron/aronstrandberg.github.com/src/_includes/header.html.haml",
+		"/C/Users/Aron/aronstrandberg.github.com/src/_layouts/default.html",
+		"/C/Users/Aron/aronstrandberg.github.com/src/_layouts/default.html.haml",
+		"/C/Users/Aron/aronstrandberg.github.com/blog/page3/index.html",
+		"/C/Users/Aron/aronstrandberg.github.com/_config.yml",
+		"/D/Dropbox/Programming/Web/jekyll/src/_includes/header.html",
+		"/D/Dropbox/Programming/Web/jekyll/src/_layouts/default.html",
+		"/D/Dropbox/Programming/Web/jekyll/src/_layouts/post.html",
+		"/D/Dropbox/Programming/Web/london-news/index.html",
+		"/D/Dropbox/Programming/Web/london-news/_layouts/default.html",
+		"/D/Dropbox/Programming/Web/london-news/stylesheets/app.css",
+		"/D/Dropbox/Programming/Web/london-news/stylesheets/foundation.min.css",
+		"/D/Dropbox/Programming/Web/london-news/stylesheets/foundation.css",
+		"/D/Dropbox/Programming/Web/jekyll/src/_posts/2012-01-24-cuckoo.md",
+		"/D/Dropbox/Programming/Web/jekyll/src/_posts/2012-10-04-how-to-be-batman.md",
+		"/D/Dropbox/Programming/Web/jekyll/_config.yml",
+		"/D/Dropbox/Programming/Web/jekyll/src/index.html",
+		"/D/Dropbox/Programming/Web/jekyll/src/_posts/2012-01-24-cuckoo-nest.md",
+		"/D/Dropbox/Programming/Web/jekyll/src/_posts/2012-01-24-cuckoos-nest.md",
+		"/D/Dropbox/Programming/Web/jekyll/src/_posts/2012-01-24-cuckoo's-nest.md",
+		"/D/Dropbox/Programming/Web/jekyll/src/_posts/2012-01-24-cuckoo's-nest",
+		"/C/Users/Aron/aronstrandberg.github.com/style.css",
+		"/D/Dropbox/Homework/English/Batman.md",
+		"/D/Dropbox/Programming/Web/jekyll/src/_posts/2012-12-20-hello.md",
+		"/D/Dropbox/Programming/Projekt/Development/css/style.sass",
+		"/D/Dropbox/Programming/Web/website/css/style.scss",
+		"/D/Dropbox/Programming/Web/jekyll/src/_includes/doctype.html",
+		"/D/Dropbox/Programming/Web/jekyll/src/_includes/header",
+		"/D/Dropbox/Programming/Web/jekyll/jekyll.sublime-project",
+		"/D/Dropbox/Programming/Web/jekyll/jekyll.sublime-workspace",
+		"/D/Dropbox/Homework/Programmering/Web/jekyll/_config.yml",
+		"/D/Dropbox/Homework/Programmering/Web/jekyll/src/index.html",
+		"/D/Dropbox/Homework/Programmering/Web/jekyll/src/_posts/2012-12-20-the-story.md",
+		"/D/Dropbox/Homework/Programmering/Web/jekyll/src/_posts/2012-12-20-hello.md",
+		"/D/Dropbox/Homework/Programmering/Web/jekyll/src/styles/style.css",
+		"/D/Dropbox/Homework/Programmering/Web/jekyll/src/_posts/2012-12-20-the-story",
+		"/D/Dropbox/Homework/Programmering/Web/jekyll/site/index.html",
+		"/D/Dropbox/Homework/Programmering/Web/jekyll/src/_layouts/default.html",
+		"/D/Dropbox/Homework/Programmering/Web/jekyll/src/_posts/hello.md",
+		"/D/Dropbox/Homework/Programmering/Web/jekyll/src/styles/style.sass",
+		"/D/Dropbox/Homework/Programmering/Web/london-news/_config.yml",
+		"/C/Users/Aron/Desktop/mod.rb",
+		"/D/Dropbox/Homework/Programmering/Web/jekyll/index.html",
+		"/D/Dropbox/Homework/Programmering/Web/jekyll/_config.yaml",
+		"/D/Dropbox/Homework/Programmering/Projekt/Development/css/style.css",
+		"/D/Dropbox/Homework/Programmering/Projekt/Development/css/style.sass",
+		"/D/Dropbox/Homework/Programmering/Projekt/Development/index.php",
+		"/D/Dropbox/Homework/Programmering/Projekt/Development/instant/js/instant.js",
+		"/D/Dropbox/Homework/Programmering/Projekt/Development/instant/index.html",
+		"/D/Dropbox/Homework/Programmering/Projekt/Development/class.converter.php",
+		"/C/Users/aron.strandberg/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/aron.strandberg/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/aron.strandberg/AppData/Roaming/com.destroytoday.destroytwitter/Local Store/themes/DestroyToday.css",
+		"/C/Users/aron.strandberg/Dropbox/Homework/Programmering/Projekt/converter/autoloader.php",
+		"/C/Users/aron.strandberg/Dropbox/Homework/Programmering/Projekt/converter/class.connection.php",
+		"/C/Users/aron.strandberg/Dropbox/Homework/Programmering/Projekt/converter/ajax.php",
+		"/C/Users/aron.strandberg/Dropbox/Homework/Programmering/Projekt/converter/js/slide.js",
+		"/D/Dropbox/Homework/Programmering/Projekt/converter/ajax.php",
+		"/C/Users/Aron/Desktop/fibonacci.rb",
+		"/D/Dropbox/Homework/Programmering/Projekt/converter/class.converter.php",
+		"/D/Dropbox/Homework/Programmering/Projekt/converter/js/ajax.js",
+		"/D/Dropbox/Homework/Programmering/Web/colors/showmeyourcolors.js",
+		"/D/Dropbox/Homework/Programmering/Web/colors/showmeyourcolors.html",
+		"/D/Dropbox/Homework/Programmering/Projekt/converter/js/formwidth.js",
+		"/D/Dropbox/Homework/Programmering/Projekt/converter/autoloader.php",
+		"/D/Dropbox/Homework/Programmering/Projekt/converter/class.connection.php",
+		"/D/Dropbox/Homework/Programmering/Projekt/converter/js/null.js",
+		"/D/Dropbox/Homework/Programmering/Web/colors/screen.css",
+		"/D/Dropbox/Homework/Programmering/Web/website/css/style.css",
+		"/D/Dropbox/Homework/Programmering/Projekt/converter/js/slide.js",
+		"/C/Users/Aron/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/D/Dropbox/Homework/Programmering/Projekt/converter/css/style.sass",
+		"/D/Dropbox/Homework/Programmering/Projekt/Kod/index.php",
+		"/D/Dropbox/Homework/Programmering/Projekt/Kod/class.converter.php",
+		"/D/Dropbox/Homework/Programmering/Projekt/Kod/css/style.css",
+		"/D/Dropbox/Homework/Programmering/Projekt/Kod/css/style.sass",
+		"/D/Dropbox/Homework/Programmering/Projekt/Kod/ajax.php",
+		"/D/Dropbox/Homework/Programmering/Projekt/Kod/js/ajax.js",
+		"/D/Dropbox/Homework/Programmering/Projekt/Kod/connect.php",
+		"/D/Dropbox/Homework/Programmering/Projekt/Kod/index2.php",
+		"/D/Dropbox/Homework/Programmering/Projekt/Kod/ajax2.php",
+		"/C/Users/aron.strandberg/Dropbox/Homework/Programmering/Projekt/Kod/class.connection.php",
+		"/C/Users/aron.strandberg/Dropbox/Homework/Programmering/Projekt/Kod/autoloader.php",
+		"/C/Users/aron.strandberg/Desktop/nim.java",
+		"/C/Users/aron.strandberg/Dropbox/Homework/Programmering/Projekt/Kod/js/ajax.js",
+		"/C/Users/aron.strandberg/Dropbox/Homework/Programmering/Projekt/Kod/css/style.css",
+		"/C/Users/aron.strandberg/Dropbox/Homework/Programmering/Projekt/Kod/css/style.sass",
+		"/C/Users/aron.strandberg/Dropbox/Homework/Programmering/Projekt/Kod/ftpsync.settings",
+		"/C/Users/aron.strandberg/AppData/Roaming/Sublime Text 2/Packages/SFTP/SFTP.sublime-settings",
+		"/C/Users/aron.strandberg/Dropbox/Homework/Programmering/Projekt/Kod/connect.php",
+		"/D/Dropbox/en_tal.md",
+		"/D/Dropbox/Homework/Arkiv/Datorkunskap/Inloggning SSH.txt",
+		"/D/Dropbox/Homework/Arkiv/Datorkunskap/Svar på critical error.txt",
+		"/D/Dropbox/Homework/Programmering/Projekt/Kod/js/slide.js",
+		"/D/Dropbox/Homework/Programmering/Web/website/css/style.scss",
+		"/C/Users/Aron/AppData/Local/Temp/srcB830.txt",
+		"/D/Dropbox/nim.py",
+		"/C/Users/Aron/AppData/Roaming/Sublime Text 2/Packages/FTPSync/ftpsync.sublime-settings",
+		"/D/Dropbox/Homework/Programmering/Projekt/Kod/css/style.scss",
+		"/D/Dropbox/Homework/Programmering/Projekt/Kod/ftpsync.settings",
+		"/C/Users/aron.strandberg/Dropbox/Homework/Programmering/Java/Kapitel 3/ovning_5.java",
+		"/C/Users/aron.strandberg/Dropbox/Homework/Programmering/Java/Kapitel 3/ovning_4.java",
+		"/C/Users/aron.strandberg/Dropbox/Homework/Programmering/Java/Kapitel 2/TidDemo.java",
+		"/C/Users/aron.strandberg/Dropbox/Homework/Programmering/Java/Kapitel 2/Tidpunkt.java",
+		"/C/Users/aron.strandberg/Dropbox/Homework/Programmering/Java/Kapitel 3/ovning_2.java",
+		"/C/Users/aron.strandberg/Dropbox/Homework/Programmering/Java/Kapitel 3/ovning_1.java",
+		"/C/Users/aron.strandberg/Dropbox/Homework/Programmering/Java/Diverse/uppgift3.java",
+		"/C/Users/aron.strandberg/Dropbox/Homework/Programmering/Java/Kapitel 3/ovning_3.java",
+		"/C/Users/aron.strandberg/Desktop/anton.html",
+		"/C/Users/aron.strandberg/Desktop/anton.js",
+		"/C/Users/aron.strandberg/Desktop/anton.css",
+		"/C/Users/aron.strandberg/Dropbox/en_tal .md",
+		"/C/Users/aron.strandberg/AppData/Roaming/Sublime Text 2/Packages/User/signature.py",
+		"/C/Users/aron.strandberg/Dropbox/signature.py"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Previous",
+			"block",
+			"converter",
+			"param",
+			"asd",
+			"jQuery",
+			"word",
+			"content",
+			"input",
+			"post",
+			"POST",
+			"post",
+			"find",
+			"get",
+			"post",
+			";\n",
+			"character",
+			"outputwrapper",
+			"outputentry",
+			"footer",
+			"absolut",
+			"space",
+			"convertinput",
+			"indent",
+			"white space",
+			"whitespace",
+			"tab",
+			"());\n",
+			"?",
+			"unsav",
+			">\n",
+			"Math",
+			"workEntry",
+			"type",
+			"#form",
+			"form",
+			"#form2",
+			"form2",
+			"$(\"#",
+			"body",
+			"}\n",
+			"		",
+			"}\n",
+			"current",
+			"main",
+			"dddddd",
+			"cccccc",
+			"999999",
+			"eeeeee",
+			"ffffff",
+			"placeholder",
+			"fffdd0",
+			"300px",
+			"Museo Slab 500",
+			"place",
+			"newMainColor",
+			"tab"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"get",
+			"Math",
+			"math"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "style.css",
+					"settings":
+					{
+						"buffer_size": 727,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								374,
+								374
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/_layouts/default.html",
+					"settings":
+					{
+						"buffer_size": 315,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								315,
+								315
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "gallery/index.html",
+					"settings":
+					{
+						"buffer_size": 2867,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								845,
+								845
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 140.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "gallery/index.haml",
+					"settings":
+					{
+						"buffer_size": 1882,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								449,
+								449
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 420.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 102.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 197.0,
+	"status_bar_visible": true
+}

@@ -1,6 +1,6 @@
 site_name: 'Aron Strandberg'
 source: ./src
-destination: ./blog
+destination: ./site
 markdown: rdiscount
 rdiscount:
     extensions: [smart]

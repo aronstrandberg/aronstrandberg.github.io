@@ -1,4 +1,5 @@
-.sublime-workspace
-.sublime-project
-.haml
+*.sublime-workspace
+*.sublime-project
+*.haml
 .sass-cache
+*.sass
