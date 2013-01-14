@@ -120,6 +120,9 @@ ol#pages {
 #pages a:hover {
   color: #ff7070;
 }
+#pages a:active {
+  background: #ff6166;
+}
 #pages a li {
   display: inline-block;
   padding: 0 0.5em;
