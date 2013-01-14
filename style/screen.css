@@ -23,10 +23,6 @@ img {
   background: url(/assets/checker.png);
 }
 
-.typekit-badge {
-  display: none !important;
-}
-
 body {
   font-family: "museo-slab", "helvetica", verdana, sans-serif;
   font-weight: 300;
