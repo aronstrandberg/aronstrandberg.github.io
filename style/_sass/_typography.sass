@@ -1,5 +1,5 @@
 body
-	font-family: "museo-sans", helvetica, verdana, sans-serif
+	font-family: "museo-slab", helvetica, verdana, sans-serif
 	font-weight: 300
 	font-size: 1em
 	-webkit-font-smoothing: antialiased
@@ -15,9 +15,9 @@ body
 
 /* HEADERS */
 
-h1, h2, h3, h4, h5, h6
-	font-family: "museo-slab", helvetica, verdana, sans-serif
-	font-weight: 300
+// h1, h2, h3, h4, h5, h6
+// 	font-family: "museo-slab", helvetica, verdana, sans-serif
+// 	font-weight: 300
 
 h1
 	font-size: 2em
@@ -36,6 +36,8 @@ h6
 .post_footer
 	font-size: 0.8em
 
+/* CODE */
+
 pre > code
 	font-family: "Consolas"
 	font-size: 12px
@@ -48,23 +50,20 @@ pre > code
 
 /* LINKS */
 
-h3
-	// display: none
-
-h3 a
-	color: #000
-
-h3 a:hover
-	color: #49e196
-
-a, a:visited
-	color: #49e196
-
-a:hover
-	color: #3f996b
-
-a:visited
-	color: #1acb8d
-
 a
 	text-decoration: none
+	background: #FF7070
+
+
+	&:hover
+		background: #ff6166
+
+a,
+a:visited
+	color: #000
+
+h3 a
+	background: none
+	&:hover
+		background: none
+
