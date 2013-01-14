@@ -3,4 +3,4 @@ markdown: rdiscount
 rdiscount:
     extensions: [smart]
 permalink: ./posts/:title
-paginate: 1
+paginate: 2
