@@ -20,12 +20,11 @@ ul {
 }
 
 img {
-  background: url(/assets/checker.png);
+  background: url(/images/checker.png);
 }
 
 body {
-  font-family: "museo-slab", "helvetica", verdana, sans-serif;
-  font-weight: 300;
+  font-family: "acuta", "helvetica", verdana, sans-serif;
   font-size: 1em;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
@@ -48,6 +47,11 @@ body {
 }
 
 /* HEADERS */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "museo-slab", helvetica, verdana, sans-serif;
+  font-weight: 300;
+}
+
 h1 {
   font-size: 2em;
 }

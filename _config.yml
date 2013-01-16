@@ -1,7 +1,7 @@
 # site
 site_name: 'Aron Strandberg'
 permalink: ./posts/:title
-paginate: 1
+paginate: 2
 paginate_path: page/:num
 
 # options
