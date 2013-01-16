@@ -1,7 +1,7 @@
 {% if paginator.total_pages > 1 %}
 	<ol id="pages">
 		{% for i in (1..paginator.total_pages) %}
-		<a href="/{% if i > 1 %}page{{ i }}{% endif %}">
+		<a href="/{% if i > 1 %}page/{{ i }}{% endif %}">
 			<li{% if i == paginator.page %} class="selected"{% endif %}>
 				{{ i }}
 			</li>

@@ -1,6 +1,16 @@
+# site
 site_name: 'Aron Strandberg'
+permalink: ./posts/:title
+paginate: 1
+paginate_path: page/:num
+
+# options
 markdown: rdiscount
 rdiscount:
-    extensions: [smart]
-permalink: ./posts/:title
-paginate: 2
+  extensions: [smart]
+pygments: true
+
+# dev options
+server_port: 1337
+auto: true
+server: true
