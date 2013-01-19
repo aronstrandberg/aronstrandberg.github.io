@@ -1,13 +1,13 @@
 body
-	font-family: "acuta", "helvetica", verdana, sans-serif
-	// font-weight: 300
+	font-family: "adelle", "helvetica", verdana, sans-serif
+	font-weight: 300
 	font-size: 1em
 	-webkit-font-smoothing: antialiased
 	font-smoothing: antialiased
 	text-align: left
 
 	@media screen and (min-width:1440px)
-		font-size: 1.25em
+		font-size: 1.20em
 	@media screen and (max-width: 720px)
 		font-size: 0.95em
 	@media screen and (max-width: 480px)
@@ -16,8 +16,9 @@ body
 /* HEADERS */
 
 h1, h2, h3, h4, h5, h6
-	font-family: "museo-slab", helvetica, verdana, sans-serif
+	font-family: "museo-slab", "adelle", helvetica, verdana, sans-serif
 	font-weight: 300
+	padding: 2px
 
 h1
 	font-size: 2em
@@ -25,17 +26,16 @@ h2
 	font-size: 1.875em
 h3
 	font-size: 1.75em
-
 h4
 	font-size: 1.5em
 h5
 	font-size: 1.375em
 h6
 	font-size: 1.25em
-// p, span
 
 .identity
-	border-bottom: 5px solid #000
+	// border-bottom: 5px solid #000
+	padding: 5px
 
 /* CODE */
 
@@ -54,10 +54,12 @@ pre > code
 a
 	text-decoration: none
 	background: #FF7070
-
-
+	padding: 2px
 	&:hover
 		background: #ff6166
+	&:active
+		background: #ff6166
+
 
 a,
 a:visited
@@ -65,6 +67,5 @@ a:visited
 
 h3 a
 	background: none
+	// padding: 5px
 	&:hover
-		background: none
-
