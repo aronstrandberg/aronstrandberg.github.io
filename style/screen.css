@@ -52,6 +52,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "museo-slab", "adelle", helvetica, verdana, sans-serif;
   font-weight: 300;
   padding: 2px;
+  text-align: center;
 }
 
 h1 {
