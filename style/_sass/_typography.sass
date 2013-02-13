@@ -1,13 +1,16 @@
+$red: rgba(255, 112, 112, 0.1)
+$dark-red: rgba(255, 112, 112, 0.2)
+
 body
-	font-family: "adelle", "helvetica", verdana, sans-serif
-	font-weight: 300
-	font-size: 1em
-	-webkit-font-smoothing: antialiased
-	font-smoothing: antialiased
+	font:
+		family: "adelle", "helvetica", verdana, sans-serif
+		weight: 300
+		size: 1em
+		smoothing: antialiased
 	text-align: left
 
 	@media screen and (min-width:1440px)
-		font-size: 1.20em
+		font-size: 1em
 	@media screen and (max-width: 720px)
 		font-size: 0.95em
 	@media screen and (max-width: 480px)
@@ -16,13 +19,16 @@ body
 /* HEADERS */
 
 h1, h2, h3, h4, h5, h6
-	font-family: "museo-slab", "adelle", helvetica, verdana, sans-serif
-	font-weight: 300
+	font:
+		family: "museo-slab", "adelle", helvetica, verdana, sans-serif
+		weight: 300
 	padding: 2px
-	text-align: center
+	text-align: left
+	a
+		padding: 5px
 
 h1
-	font-size: 2em
+	font-size: 3em
 h2
 	font-size: 1.875em
 h3
@@ -42,8 +48,9 @@ h6
 /* CODE */
 
 pre > code
-	font-family: "Consolas"
-	font-size: 12px
+	font:
+		family: "Consolas"
+		size: 12px
 	background: #eee
 	display: block
 	padding: 1em
@@ -55,19 +62,14 @@ pre > code
 
 a
 	text-decoration: none
-	background: #FF7070
+	background: $red
 	padding: 2px
 	&:hover
-		background: #ff6166
+		background: $dark-red
 	&:active
-		background: #ff6166
+		background: $dark-red
 
 
 a,
 a:visited
 	color: #000
-
-h3 a
-	background: none
-	// padding: 5px
-	// &:hover

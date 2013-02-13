@@ -1,3 +1,6 @@
+$red: rgba(255, 112, 112, 0.1)
+$dark-red: rgba(255, 112, 112, 0.2)
+
 body
 	background: white
 	margin: 0 auto
@@ -15,6 +18,17 @@ ul
 img
 	background: url(/images/checker.png)
 
+div, article
+	display: inline-block
+
+button
+	border: none
+	background: $red
+	&:hover
+		background: $dark-red
+
+
 
 @import typography
 @import pagination
+@import footer
