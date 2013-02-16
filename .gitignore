@@ -1,6 +1,8 @@
+
 *.sublime-workspace
 *.sublime-project
-.sass-cache
-_site
-
 .DS_Store
+
+.sass-cache
+
+_site
