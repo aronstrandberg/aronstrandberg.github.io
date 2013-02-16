@@ -1,6 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, pre, blockquote, label, ul, ol, dl, fieldset, address {
+  margin: 1em 0;
+}
+
 body {
   background: white;
-  margin: 0 auto;
+  margin: 2em auto;
   width: 800px;
   line-height: 1.6;
 }
@@ -41,6 +50,7 @@ body {
   font-size: 1em;
   font-smoothing: antialiased;
   text-align: left;
+  line-height: 1.6;
 }
 @media screen and (min-width: 1440px) {
   body {
@@ -93,8 +103,14 @@ h6 {
   font-size: 1.25em;
 }
 
+.site-navigation {
+  margin-bottom: 3em;
+}
+
 .identity {
   padding: 5px;
+  margin: 0.5em auto;
+  margin-bottom: 3em;
 }
 
 /* CODE */
@@ -112,14 +128,14 @@ pre > code {
 /* LINKS */
 a {
   text-decoration: none;
-  background: rgba(255, 112, 112, 0.1);
+  background: rgba(255, 112, 112, 0.25);
   padding: 2px;
 }
 a:hover {
-  background: rgba(255, 112, 112, 0.2);
+  background: rgba(255, 112, 112, 0.5);
 }
 a:active {
-  background: rgba(255, 112, 112, 0.2);
+  background: rgba(255, 112, 112, 0.5);
 }
 
 a,
@@ -140,7 +156,7 @@ ol#pages {
   color: #ff7070;
 }
 #pages a:active {
-  background: rgba(255, 112, 112, 0.2);
+  background: rgba(255, 112, 112, 0.5);
 }
 #pages a li {
   display: inline-block;
@@ -148,19 +164,16 @@ ol#pages {
 }
 
 #pages .selected {
-  background: rgba(255, 112, 112, 0.2);
+  background: rgba(255, 112, 112, 0.5);
 }
 
 #pages a .selected {
   color: black;
 }
 
-footer {
+.site-footer {
   margin-top: 5em;
-  position: fixed;
-  bottom: 1em;
-  left: 1em;
 }
-footer .scroll-top {
+.site-footer .scroll-to-top {
   padding: 4px 8px;
 }
