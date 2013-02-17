@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6, p, pre, blockquote, label, ul, ol, dl, fieldset, address {
+h1, h2, h3, h4, h5, h6, p, pre, blockquote, label, ul, ol, dl, fieldset, address, article {
   margin: 1em 0;
 }
 
@@ -30,6 +30,8 @@ ul {
 
 img {
   background: url(/images/checker.png);
+  width: 100%;
+  height: auto;
 }
 
 div, article {
@@ -38,10 +40,10 @@ div, article {
 
 button {
   border: none;
-  background: rgba(255, 112, 112, 0.1);
+  background: rgba(255, 112, 112, 0.25);
 }
 button:hover {
-  background: rgba(255, 112, 112, 0.2);
+  background: rgba(255, 112, 112, 0.5);
 }
 
 body {
@@ -175,5 +177,5 @@ ol#pages {
   margin-top: 5em;
 }
 .site-footer .scroll-to-top {
-  padding: 4px 8px;
+  padding: 0.25em 0.5em;
 }
