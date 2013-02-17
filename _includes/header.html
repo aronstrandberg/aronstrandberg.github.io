@@ -1,7 +1,11 @@
 <header>
 	<nav class="site-navigation">
 		<h6>
-			<a class="identity" href="/">{{site.site_name}}</a>
+			<a class="identity" href="/">{{ site.site_name }}</a> /
+			{% unless {{page.categories}} == nil %}
+				<a href="{{ base_url }}/{{ page.categories }}" title="Back to {{ page.categories }}">{{ page.categories }}</a> /
+			{% endunless %}
+			{{ page.title }}
 		</h6>
 	</nav>
 </header>
