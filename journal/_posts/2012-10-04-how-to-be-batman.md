@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: entry
 title: How to be Batman
+category: journal
 date: October 4, 2012
 ---
 

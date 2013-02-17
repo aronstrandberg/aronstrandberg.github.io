@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+{% for post in site.posts %}
+	{% if post.categories contains 'work' %}
+		<article class="work">
+			{{ post.content }}
+		</article>
+	{% endif %}
+{% endfor %}

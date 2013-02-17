@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+{% for post in site.posts %}
+	{% if post.category contains 'photo' %}
+		<article class="photo">
+			{{ post.content }}
+		</article>
+	{% endif %}
+{% endfor %}
