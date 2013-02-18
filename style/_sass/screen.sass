@@ -5,14 +5,19 @@ $dark-red: rgba(255, 112, 112, 0.5)
 	margin: 0
 	padding: 0
 
-h1, h2, h3, h4, h5, h6, p, pre, blockquote, label, ul, ol, dl, fieldset, address, article
+p, pre, blockquote, label, ul, ol, dl, fieldset, address, article
 	margin: 1em 0
+
+h1, h2, h3, h4, h5, h6
+	margin: 0.5em 0
+
+article
+	margin-top: 1em
 
 body
 	background: white
 	margin: 2em auto
 	width: 800px
-	line-height: 1.60
 
 	@media screen and (max-width: 768px)
 		width: 80%
@@ -35,8 +40,6 @@ button
 	background: $red
 	&:hover
 		background: $dark-red
-
-
 
 @import typography
 @import pagination
