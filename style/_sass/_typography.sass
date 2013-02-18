@@ -3,19 +3,22 @@ $dark-red: rgba(255, 112, 112, 0.5)
 
 body
 	font:
-		family: "adelle", "helvetica", verdana, sans-serif
+		family: "museo-slab", "helvetica", verdana, sans-serif
 		weight: 300
-		size: 1em
-		smoothing: antialiased
+		size: 16px
 	text-align: left
 	line-height: 1.6
 
-	@media screen and (min-width:1440px)
-		font-size: 1em
+	// @media screen and (min-width: 1400px)
+	// 	p
+	// 		font-size: 1.6em
+	@media all and (min-width: 720px)
+		p
+			font-size: 1.2em
 	@media screen and (max-width: 720px)
 		font-size: 0.95em
 	@media screen and (max-width: 480px)
-		font-size: 0.875em
+		font-size: 0.65em
 
 /* HEADERS */
 
