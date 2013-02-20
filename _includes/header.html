@@ -1,11 +1,17 @@
 <header>
 	<nav class="site-navigation">
 		<h6>
-			<a class="identity" href="/">{{ site.site_name }}</a> /
+			<span>
+				<a class="identity" href="/">{{ site.site_name }}</a> /
+			</span>
 			{% unless {{page.categories}} == nil %}
-				<a href="{{ base_url }}/{{ page.categories }}" title="Back to {{ page.categories }}">{{ page.categories }}</a> /
+				<span>
+					<a href="{{ base_url }}/{{ page.categories }}" title="Back to {{ page.categories }}">{{ page.categories }}</a> /
+				</span>
 			{% endunless %}
-			{{ page.title }}
+			<span>
+				{{ page.title }}
+			</span>
 		</h6>
 	</nav>
 </header>
