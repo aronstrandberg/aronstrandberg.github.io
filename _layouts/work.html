@@ -3,9 +3,11 @@ layout: default
 ---
 
 {% for post in site.posts %}
-	{% if post.categories contains 'work' %}
+	{% if post.category contains 'work' %}
 		<article class="work">
 			{{ post.content }}
 		</article>
 	{% endif %}
 {% endfor %}
+
+{% include scroll-to-top.html %}

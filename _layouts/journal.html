@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% for post in site.posts %}
-	{% if post.category contains 'journal' %}
+	{% if post.category == 'journal' %}
 		<article>
 			<h3><a href="/{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
 			<p>
