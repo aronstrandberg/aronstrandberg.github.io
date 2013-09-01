@@ -4,7 +4,8 @@ img {
   height: auto; }
 
 body {
-  width: 100%;
+  width: 90%;
   margin: 2em auto;
   font-family: Helvetica Neue;
-  color: #333333; }
+  color: #333333;
+  text-align: center; }
