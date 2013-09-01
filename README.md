@@ -1,3 +1,3 @@
-### [aronstrandberg.github.com](http://aronstrandberg.github.com) ###
+### [aronstrandberg.com](http://aronstrandberg.com) ###
 
 This is my website.
