@@ -4,8 +4,15 @@ img {
   height: auto; }
 
 body {
-  width: 90%;
+  width: 50%;
   margin: 2em auto;
-  font-family: Helvetica Neue;
+  font-family: "adobe-garamond-pro";
   color: #333333;
-  text-align: center; }
+  line-height: 1.6;
+  font-size: 1.375em;
+  font-weight: semibold; }
+  @media all and (max-width: 480px) {
+    body {
+      width: 90%; } }
+  body h1 {
+    font-weight: bold; }
