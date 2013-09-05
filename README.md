@@ -1,4 +1,4 @@
-[aronstrandberg.github.io](aronstrandberg.github.io)
+[aronstrandberg.com](http://aronstrandberg.com)
 ========================
 
 My website using Jekyll and GitHub Pages.
