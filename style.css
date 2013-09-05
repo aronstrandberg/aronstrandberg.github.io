@@ -6,14 +6,14 @@ img {
 body {
   width: 50%;
   margin: 2em auto;
-  font-family: "adobe-garamond-pro";
+  font-family: "calluna";
   color: #333333;
   line-height: 1.6;
   font-size: 1.375em;
-  font-weight: semibold; }
+  font-style: normal;
+  font-weight: 500; }
   @media all and (max-width: 480px) {
     body {
       width: 90%; } }
-  body h1 {
-    font-family: "fertigo-pro";
-    font-weight: bold; }
+  body h1, body h2, body h3, body h4, body h5, body h6 {
+    font-weight: 700; }
