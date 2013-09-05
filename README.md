@@ -1,4 +1,4 @@
 [aronstrandberg.com](http://aronstrandberg.com)
 ========================
 
-My website using Jekyll and GitHub Pages.
+My pointlessly underwhelming website using Jekyll and GitHub Pages.
