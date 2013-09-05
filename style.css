@@ -1,7 +1,6 @@
-img {
-  background: url(/images/checker.png);
-  width: 100%;
-  height: auto; }
+.profile {
+  margin-right: 20px;
+  float: left; }
 
 body {
   width: 50%;
