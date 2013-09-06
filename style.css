@@ -2,7 +2,7 @@ p {
   position: relative; }
 
 p:before {
-  background: url("images/me.png"), url("images/checkers.png");
+  background: url("images/me.png"), url("images/checkers.png") 16px 16px repeat;
   background-size: 100%;
   content: "";
   display: block;
