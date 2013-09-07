@@ -1,6 +1,5 @@
 # site
 site_name: 'Aron Strandberg'
-permalink: ./journal/:title
 
 # options
 markdown: rdiscount
