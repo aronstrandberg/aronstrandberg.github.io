@@ -12,11 +12,6 @@ p {
   border-radius: 100px;
   box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1) inset;
   position: static; }
-  @media screen and (min-width: 900px) {
-    .index:before {
-      position: absolute;
-      left: -225px;
-      top: -10px; } }
 
 a {
   color: #cc0000;
@@ -30,18 +25,14 @@ a {
 body {
   width: 85%;
   margin: 4em auto;
+  font-size: 1.25em;
+  text-align: center;
   font-family: "calluna";
   color: #333333;
   line-height: 1.6;
-  font-size: 1.375em;
   font-style: normal;
   font-weight: 500; }
   @media all and (min-width: 700px) {
     body {
-      width: 630px; } }
-  @media all and (min-width: 900px) {
-    body {
-      margin-left: 250px; } }
-  @media all and (min-width: 1100px) {
-    body {
-      margin: 4em auto; } }
+      width: 630px;
+      font-size: 1.375em; } }
