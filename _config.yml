@@ -8,6 +8,4 @@ rdiscount:
 pygments: true
 
 # dev options
-server_port: 1337
-auto: true
-server: true
+port: 1337
