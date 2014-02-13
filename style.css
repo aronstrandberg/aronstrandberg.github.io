@@ -19,8 +19,17 @@ a {
   a:visited {
     color: #cc0000; }
 
+ul {
+  padding: 0; }
+
+li {
+  list-style: none; }
+
 .bold {
   font-weight: 700; }
+
+.italic {
+  font-style: italic; }
 
 body {
   width: 85%;
@@ -36,3 +45,11 @@ body {
     body {
       width: 630px;
       font-size: 1.375em; } }
+
+.cv {
+  margin: 1.5em auto; }
+  .cv h4 {
+    margin-top: 1em;
+    margin-bottom: 0.1em; }
+  .cv p {
+    margin: 0.1em auto; }
