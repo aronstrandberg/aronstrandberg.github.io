@@ -32,12 +32,19 @@
     </style>
 </head>
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <h1>Om Patrik</h1>
 <p>Han är en fitta.</p>
 <h1>Om Martin</h1>
 <p>Han är också en fitta.</p>
-<h1>Om Adam</h1>
-<p>Han är cool.</p>
 <footer><p>Skriv om Patrik och Martin på Twitter: <a href="https://twitter.com/search?q=%23patrikochmartin&amp;src=hash&amp;f=realtime">#patrikochmartin</a></p></footer>
+<div class="fb-like" data-href="http://www.aronstrandberg.com/patrikochmartin" data-width="100" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
 </body>
 </html>
