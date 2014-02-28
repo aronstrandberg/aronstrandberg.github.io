@@ -11,15 +11,31 @@
         text-align: center;
         width: 60%;
         margin: 0 auto;
+
     }
 
     h1 {
-        font-size: 8em;
+        font-size: 6em;
         margin: 0.2em;
     }
 
+    @media screen and (max-width: 600px) {
+        body {
+            font-size: 12px;
+        }
+    }
+
+    h2 {
+        margin-top: 5em;
+    }
+
+    p {
+        font-size: 1.25em;
+    }
+
     footer {
-        margin-top: 15em;
+        margin: 10em 25px 0 auto;
+        /*width: 100vw;*/
     }
 
     a {
@@ -32,24 +48,26 @@
     </style>
 </head>
 <body>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<h1>Om Patrik</h1>
-<p>Han är en fitta.</p>
-<h1>Om Martin</h1>
-<p>Han är också en fitta.</p>
-<!-- <footer><p>Skriv om Patrik och Martin på Twitter: <a href="https://twitter.com/search?q=%23patrikochmartin&amp;src=hash&amp;f=realtime">#patrikochmartin</a></p></footer> -->
-<footer>
-    
-<div class="fb-like" data-href="http://www.aronstrandberg.com/patrikochmartin" data-width="100" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
-<a href="https://twitter.com/intent/tweet?button_hashtag=patrikochmartin" class="twitter-hashtag-button">Tweet #patrikochmartin</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-</footer>
+    <div id="fb-root"></div>
+    <script>
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <h1>Om Patrik</h1>
+    <p>Han är en fitta.</p>
+    <h1>Om Martin</h1>
+    <p>Han är också en fitta.</p>
+    <h2>#patrikochmartin</h2>
+
+    <footer>
+        <div class="fb-like" data-href="http://www.aronstrandberg.com/patrikochmartin" data-width="100" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
+        <div></div>
+    </footer>
 </body>
 </html>
