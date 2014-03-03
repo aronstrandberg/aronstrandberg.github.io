@@ -15,9 +15,11 @@ p {
 
 a {
   color: #cc0000;
+  color: #0093af;
   text-decoration: none; }
   a:visited {
-    color: #cc0000; }
+    color: #cc0000;
+    color: #0093af; }
 
 ul {
   padding: 0; }
@@ -39,7 +41,6 @@ body {
   font-family: "calluna";
   color: #333333;
   background: white;
-  background: #ffffed;
   line-height: 1.6;
   font-style: normal;
   font-weight: 500; }
