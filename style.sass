@@ -1,55 +1,76 @@
 p
-	position: relative
+    position: relative
 
 .index:before
-	background: url(images/me.png) no-repeat, url(images/checkers.png) repeat
-	background-size: 100%, 16px
-	content: ""
-	display: block
-	margin: 0 auto 50px
-	height: 200px
-	width: 200px
-	border-radius: 100px
-	box-shadow: 0 0 10px 10px rgba(0,0,0,0.1) inset
-	position: static
+    background: url(images/me.png) no-repeat, url(images/checkers.png) repeat
+    background-size: 100%, 16px
+    content: ""
+    display: block
+    margin: 0 auto 50px
+    height: 200px
+    width: 200px
+    border-radius: 100px
+    box-shadow: 0 0 10px 10px rgba(0,0,0,0.1) inset
+    position: static
 
 a
-	color: #c00
-	text-decoration: none
-	&:visited
-		color: #c00
+    color: #c00
+    text-decoration: none
+    &:visited
+        color: #c00
 
 ul
-	padding: 0
+    padding: 0
 
 li
-	list-style: none
+    list-style: none
 
 .bold
-	font-weight: 700
+    font-weight: 700
 
 .italic
-	font-style: italic
+    font-style: italic
 
 body
-	width: 85%
-	margin: 4em auto
-	font-size: 1.25em
-	text-align: center
-	@media all and (min-width: 700px)
-		width: 630px
-		font-size: 1.375em
-	font-family: "calluna"
-	color: #333
-	background: #ffffff
-	line-height: 1.6
-	font-style: normal
-	font-weight: 500
+    width: 85%
+    margin: 4em auto
+    font-size: 1.25em
+    text-align: justify
+    @media all and (min-width: 700px)
+        width: 630px
+        font-size: 1.375em
+    font-family: "calluna"
+    color: #333
+    background: #ffffff
+    background: #FFFFED
+
+    line-height: 1.6
+    font-style: normal
+    font-weight: 500
+
+.personligt-brev
+    header
+        display: inline-block
+        margin: 0
+        width: 60%
+        &.right
+            width: 20%
+            float: right
+            p
+                float: right
+        p
+            margin: 0 auto
+    footer
+        p
+            margin: 0
 
 .cv
-	margin: 1.5em auto
-	h4
-		margin-top: 1.0em 
-		margin-bottom: 0.1em
-	p
-		margin: 0.1em auto
+    margin: 1.5em auto
+    h4
+        margin-top: 1.0em 
+        margin-bottom: 0.1em
+    p
+        margin: 0.1em auto
+
+.typekit-badge
+    display: none !important

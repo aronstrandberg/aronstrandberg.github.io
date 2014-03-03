@@ -35,10 +35,11 @@ body {
   width: 85%;
   margin: 4em auto;
   font-size: 1.25em;
-  text-align: center;
+  text-align: justify;
   font-family: "calluna";
   color: #333333;
   background: white;
+  background: #ffffed;
   line-height: 1.6;
   font-style: normal;
   font-weight: 500; }
@@ -47,6 +48,20 @@ body {
       width: 630px;
       font-size: 1.375em; } }
 
+.personligt-brev header {
+  display: inline-block;
+  margin: 0;
+  width: 60%; }
+  .personligt-brev header.right {
+    width: 20%;
+    float: right; }
+    .personligt-brev header.right p {
+      float: right; }
+  .personligt-brev header p {
+    margin: 0 auto; }
+.personligt-brev footer p {
+  margin: 0; }
+
 .cv {
   margin: 1.5em auto; }
   .cv h4 {
@@ -54,3 +69,6 @@ body {
     margin-bottom: 0.1em; }
   .cv p {
     margin: 0.1em auto; }
+
+.typekit-badge {
+  display: none !important; }
