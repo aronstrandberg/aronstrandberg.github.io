@@ -7,7 +7,9 @@
     body {
         font-family: "Helvetica Neue";
         background: #FFDC00;
-        color: #111;
+        background: #ff4444;
+        background: #efffef;
+        color: #ff4444;
         text-align: center;
         width: 60%;
         margin: 0 auto;
@@ -19,22 +21,31 @@
         margin: 0.2em;
     }
 
-    @media screen and (max-width: 600px) {
-        body {
-            font-size: 12px;
-        }
-    }
-
     h2 {
-        margin-top: 5em;
+        margin-top: 3em;
     }
 
     p {
         font-size: 1.25em;
     }
 
+    @media screen and (max-width: 900px) {
+        body {
+            width: 90%;
+        }
+
+        h1 {
+            font-size: 4em;
+        }
+
+        p {
+            font-size: 2em;
+        }
+    }
+
     footer {
-        margin: 10em 25px 0 auto;
+        /*margin: 10em 25px 0 auto;*/
+        margin: 5em auto;
         /*width: 100vw;*/
     }
 
@@ -48,26 +59,25 @@
     </style>
 </head>
 <body>
+
     <div id="fb-root"></div>
-    <script>
-    (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-    </script>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 
     <h1>Om Patrik</h1>
     <p>Han är en fitta.</p>
     <h1>Om Martin</h1>
     <p>Han är också en fitta.</p>
     <h2>#patrikochmartin</h2>
+    <h2>♥</h2>
 
     <footer>
-        <div class="fb-like" data-href="http://www.aronstrandberg.com/patrikochmartin" data-width="100" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
-        <div></div>
+        <div class="fb-like" data-href="http://aronstrandberg.com/patrikochmartin" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
     </footer>
 </body>
 </html>
