@@ -11,7 +11,10 @@ p {
   width: 200px;
   border-radius: 100px;
   box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1) inset;
-  position: static; }
+  position: static;
+  -webkit-filter: grayscale(95%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%); }
 
 .index {
   margin: 4em auto; }
@@ -42,11 +45,13 @@ body {
   font-size: 1.25em;
   text-align: justify;
   font-family: "calluna";
+  font-family: "Cardo", serif;
   color: #333333;
+  color: #ff4444;
   background: white;
+  background: #efffef;
   line-height: 1.6;
-  font-style: normal;
-  font-weight: 500; }
+  font-style: normal; }
   @media all and (min-width: 700px) {
     body {
       width: 630px;
@@ -68,6 +73,8 @@ body {
 
 .cv {
   margin: 1.5em auto; }
+  .cv h1 {
+    font-style: italic; }
   .cv h4 {
     margin-top: 1em;
     margin-bottom: 0.1em; }
