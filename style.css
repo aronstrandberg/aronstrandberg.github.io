@@ -20,12 +20,12 @@ p {
   margin: 4em auto; }
 
 a {
-  color: #cc0000;
   color: #0093af;
   text-decoration: none; }
   a:visited {
-    color: #cc0000;
     color: #0093af; }
+  a h1 {
+    color: #ff4444; }
 
 ul {
   padding: 0; }
