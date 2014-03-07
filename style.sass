@@ -1,89 +1,88 @@
-p
-    position: relative
+%vertical-align
+	position: relative
+	top: 40%
+	-webkit-transform: translateY(-50%)
+	-ms-transform: translateY(-50%)
+	transform: translateY(-50%)
 
-.index:before
-    background: url(images/me.png) no-repeat, url(images/checkers.png) repeat
-    background-size: 100%, 16px
-    content: ""
-    display: block
-    margin: 0 auto 50px
-    height: 200px
-    width: 200px
-    border-radius: 100px
-    box-shadow: 0 0 10px 10px rgba(0,0,0,0.1) inset
-    position: static
-    -webkit-filter: grayscale(100%)
-    -moz-filter: grayscale(100%)
-    filter: grayscale(100%)
+%bw
+	-webkit-filter: grayscale(100%)
+	-moz-filter: grayscale(100%)
+	filter: grayscale(100%)
 
-.index
-    margin: 4em auto
-
-a
-    color: #0093AF
-    text-decoration: none
-    &:visited
-        color: #0093AF
-    h1
-        color: #ff4444
-
-ul
-    padding: 0
-
-li
-    list-style: none
-
-.bold
-    font-weight: 700
-
-.italic
-    font-style: italic
+.single-page
+	height: 90vh
+	.main
+		@extend %vertical-align
 
 body
-    width: 85%
-    margin: 1em auto
-    font-size: 1.25em
-    text-align: justify
-    @media all and (min-width: 700px)
-        width: 630px
-        font-size: 1.375em
-    font-family: "calluna"
-    font-family: 'Cardo', serif
+	width: 85%
+	font-size: 1.25em
+	@media all and (min-width: 700px)
+		width: 630px
+		font-size: 1.375em
+	margin: 1em auto
+	text-align: justify
+	font-family: 'Cardo', serif
+	// color: #ff4444
+	color: #111
+	background: #efffef
+	line-height: 1.6
+	font-style: normal
 
-    color: #333
-    color: #ff4444
-    background: #ffffff
-    background: #efffef
+.index:before
+	background: url(images/me.png) no-repeat, url(images/checkers.png) repeat
+	background-size: 100%, 16px
+	content: ""
+	display: block
+	margin: 0 auto 50px
+	height: 200px
+	width: 200px
+	border-radius: 100px
+	box-shadow: 0 0 10px 10px rgba(0,0,0,0.1) inset
+	position: static
+	@extend %bw
 
-    line-height: 1.6
-    font-style: normal
-    // font-weight: 500
+a
+	color: #0093AF
+	text-decoration: none
+	&:visited
+		color: #0093AF
+
+ul
+	padding: 0
+
+li
+	list-style: none
+
+.bold
+	font-weight: 700
 
 .personligt-brev
-    header
-        display: inline-block
-        margin: 0
-        width: 60%
-        &.right
-            width: 20%
-            float: right
-            p
-                float: right
-        p
-            margin: 0 auto
-    footer
-        p
-            margin: 0
+	header
+		display: inline-block
+		margin: 0
+		width: 60%
+		&.right
+			width: 20%
+			float: right
+			p
+				float: right
+		p
+			margin: 0 auto
+	footer
+		p
+			margin: 0
 
 .cv
-    h1
-        font-style: italic
-    margin: 1.5em auto
-    h4
-        margin-top: 1.0em 
-        margin-bottom: 0.1em
-    p
-        margin: 0.1em auto
+	h1
+		font-style: italic
+	margin: 1.5em auto
+	h4
+		margin-top: 1.0em 
+		margin-bottom: 0.1em
+	p
+		margin: 0.1em auto
 
 .typekit-badge
-    display: none !important
+	display: none !important

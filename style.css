@@ -1,5 +1,32 @@
-p {
-  position: relative; }
+.single-page .main {
+  position: relative;
+  top: 40%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+.index:before {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%); }
+
+.single-page {
+  height: 90vh; }
+
+body {
+  width: 85%;
+  font-size: 1.25em;
+  margin: 1em auto;
+  text-align: justify;
+  font-family: "Cardo", serif;
+  color: #111111;
+  background: #efffef;
+  line-height: 1.6;
+  font-style: normal; }
+  @media all and (min-width: 700px) {
+    body {
+      width: 630px;
+      font-size: 1.375em; } }
 
 .index:before {
   background: url(images/me.png) no-repeat, url(images/checkers.png) repeat;
@@ -11,21 +38,13 @@ p {
   width: 200px;
   border-radius: 100px;
   box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1) inset;
-  position: static;
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  filter: grayscale(100%); }
-
-.index {
-  margin: 4em auto; }
+  position: static; }
 
 a {
   color: #0093af;
   text-decoration: none; }
   a:visited {
     color: #0093af; }
-  a h1 {
-    color: #ff4444; }
 
 ul {
   padding: 0; }
@@ -35,27 +54,6 @@ li {
 
 .bold {
   font-weight: 700; }
-
-.italic {
-  font-style: italic; }
-
-body {
-  width: 85%;
-  margin: 1em auto;
-  font-size: 1.25em;
-  text-align: justify;
-  font-family: "calluna";
-  font-family: "Cardo", serif;
-  color: #333333;
-  color: #ff4444;
-  background: white;
-  background: #efffef;
-  line-height: 1.6;
-  font-style: normal; }
-  @media all and (min-width: 700px) {
-    body {
-      width: 630px;
-      font-size: 1.375em; } }
 
 .personligt-brev header {
   display: inline-block;
