@@ -20,7 +20,7 @@ body {
   text-align: justify;
   font-family: "Cardo", serif;
   color: #111111;
-  background: #efffef;
+  background: white;
   line-height: 1.6;
   font-style: normal; }
   @media all and (min-width: 700px) {
