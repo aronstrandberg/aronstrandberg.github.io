@@ -5,11 +5,6 @@
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
 
-.index:before {
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  filter: grayscale(100%); }
-
 .single-page {
   height: 90vh; }
 
@@ -37,7 +32,7 @@ body {
   height: 200px;
   width: 200px;
   border-radius: 100px;
-  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1) inset;
   position: static; }
 
 a {
