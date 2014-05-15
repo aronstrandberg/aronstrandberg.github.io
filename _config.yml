@@ -5,7 +5,7 @@ site_name: 'Aron Strandberg'
 markdown: rdiscount
 rdiscount:
   extensions: [smart]
-pygments: true
+highlighter: pygments
 
 # dev options
 port: 1337
