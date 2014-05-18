@@ -1,4 +1,4 @@
 [aronstrandberg.com](http://aronstrandberg.com)
 ========================
 
-My tiny website using Jekyll, Typekit, and GitHub Pages.
+It's my website. Built with Jekyll, hosted on GitHub Pages.
