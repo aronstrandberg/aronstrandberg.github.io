@@ -1,0 +1,83 @@
+!!!
+%html{lang: "sv"}
+  %head
+    %title Beer
+    %meta{charset: "utf-8"}
+    %meta{content: "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no", name: "viewport"}/
+  %body
+    :css
+      body {
+          width: 100vw;
+          margin: 0 auto;
+          text-align: center;
+      }
+      p {
+          font-size: 12px;
+          font-family: Helvetica Neue;
+          font-weight: 200;
+          text-transform: uppercase;
+      }
+
+      body div {
+          margin: 0 auto;
+          text-align: center;
+      }
+
+      .beer {
+        width: 100vw;
+        / height: 100vh;
+      }
+
+      #wrapper {
+        width: 100%;
+      }
+
+      img {
+          max-height: 90vh;
+          width: auto;
+          margin: 0 auto;
+      }
+
+      @media screen and (min-width: 1200px) {
+          p {
+              font-size: 16px;
+          }
+      }
+
+      .bold {
+          font-weight: 800;
+      }
+
+    #wrapper
+      - require "rubygems"
+      - require 'open-uri'
+      - require "nokogiri"
+      - htmls = []
+      - def get_html(id)
+        - beer = Nokogiri::XML(open("http://www.systembolagetapi.se/?id=#{id}&format=xml"))
+        - html = ""
+        - img = beer.at_xpath('//image').content
+        - a = img.split("1915")
+        - a[0] << '4500'
+        - img = a[0] + a[1]
+        - html << "<div class='beer'>\n"
+        - html << "\t<img src='#{img}'>\n"
+        - html << "\t<p class='bold'>#{beer.at_xpath('//name').content} "
+        - html << "#{beer.at_xpath('//extendedName').content}</p>\n"
+        - html << "\t<p>"
+        - html << "#{beer.at_xpath('//type').content} / "
+        - html << "#{beer.at_xpath('//packaging').content} / "
+        - html << "#{beer.at_xpath('//volume').content} / "
+        - html << "#{beer.at_xpath('//alcohol').content} % / "
+        - html << "nr #{beer.at_xpath('//articleId').content}"
+        - html << "</p>\n"
+        - html << "</div>\n"
+        - return html
+      - beers = ""
+      - open("beers.txt") { |f| beers = f.read.split(",") }
+      - beers.each do |id|
+        - htmls << get_html(id.strip)
+      - htmls.each do |html|
+        = html
+
+      %p{style: "color: rgba(255, 0, 63, 0.8); font-size: 128px"} &hearts;
