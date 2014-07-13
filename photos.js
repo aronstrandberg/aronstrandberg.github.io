@@ -2,6 +2,7 @@
 (function() {
   $(function() {
     var result;
+    window.location = "https://instagram.com/oauth/authorize/?client_id=9d8a07f4fb66443dbb84f67f6d5e87fc&redirect_uri=http://aronstrandberg.com/photos/&response_type=token";
     result = new Object;
     return $.ajax({
       type: "GET",
