@@ -41,6 +41,9 @@ a {
   a:visited {
     color: #0093af; }
 
+.highlight {
+  background-color: rgba(0, 147, 175, 0.5); }
+
 ul {
   padding: 0; }
 
