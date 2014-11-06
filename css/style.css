@@ -57,7 +57,7 @@ a {
   position: relative; }
   a:visited {
     color: inherit; }
-  a::after {
+  a:not(.symbol)::after {
     content: "";
     position: absolute;
     left: 0;
@@ -75,6 +75,9 @@ li {
 
 .bold {
   font-weight: 700; }
+
+img {
+  border: 2px solid #fff; }
 
 .personligt-brev header {
   display: inline-block;
