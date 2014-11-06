@@ -65,7 +65,7 @@ a
   position: relative
   &:visited
     color: inherit
-  &::after 
+  &:not(.symbol)::after
     content: ''
     position: absolute
     left: 0
@@ -84,6 +84,9 @@ li
 .bold
   font-weight: 700
 
+img
+  border: 2px solid $text-color
+  
 .personligt-brev
   header
     display: inline-block
