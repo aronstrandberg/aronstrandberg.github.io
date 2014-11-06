@@ -13,36 +13,59 @@ body {
   font-size: 1.25em;
   margin: 1em auto;
   text-align: justify;
-  font-family: "Cardo", serif;
-  color: #111111;
-  background: white;
+  font-family: "pt-sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #fff;
+  background: #3C35FA;
   line-height: 1.6;
   font-style: normal; }
   @media all and (min-width: 700px) {
     body {
-      width: 630px;
+      width: 650px;
       font-size: 1.375em; } }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "pt-sans-narrow";
+  font-weight: 700; }
+
 .index:before {
-  background: url(images/me.png) no-repeat, url(images/checkers.png) repeat;
+  background: url("/images/aron.jpg") no-repeat, url(/images/checkers.png) repeat;
   background-size: 100%, 16px;
   content: "";
   display: block;
-  margin: 0 auto 50px;
-  height: 200px;
-  width: 200px;
-  border-radius: 100px;
-  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1) inset;
+  margin: 50px auto;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 2px solid #fff;
   position: static; }
 
-a {
-  color: #0093af;
-  text-decoration: none; }
-  a:visited {
-    color: #0093af; }
+.social {
+  margin-top: 3em;
+  text-align: center; }
 
-.highlight {
-  background-color: rgba(0, 147, 175, 0.5); }
+.ss-icon {
+  vertical-align: middle;
+  font-size: 2em; }
+
+a {
+  text-decoration: none;
+  padding: 4px 2px;
+  color: #fff;
+  display: inline-block;
+  position: relative; }
+  a:visited {
+    color: inherit; }
+  a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    height: 1em;
+    width: 100%;
+    border-bottom: 2px solid;
+    margin-top: 8px; }
 
 ul {
   padding: 0; }
@@ -70,7 +93,6 @@ li {
 .cv {
   margin: 1em auto; }
   .cv h1 {
-    font-style: italic;
     margin: 0.1em 0; }
   .cv h2 {
     margin: 0.1em 0; }
@@ -82,3 +104,5 @@ li {
 
 .typekit-badge {
   display: none !important; }
+
+/*# sourceMappingURL=style.css.map */
