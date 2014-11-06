@@ -20,7 +20,7 @@ body {
   background: #3C35FA;
   line-height: 1.6;
   font-style: normal;
-  padding-bottom: 5em; }
+  padding: 5em 0; }
   @media all and (min-width: 700px) {
     body {
       width: 650px;
