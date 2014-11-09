@@ -16,8 +16,8 @@ body {
   font-family: "pt-sans", sans-serif;
   font-style: normal;
   font-weight: 400;
-  color: #fff;
-  background: #3C35FA;
+  color: #3C35FA;
+  background: #fff;
   line-height: 1.6;
   font-style: normal;
   padding: 5em 0; }
@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 280px;
   width: 280px;
   border-radius: 50%;
-  border: 2px solid #fff;
+  border: 2px solid #3C35FA;
   position: static;
   text-align: center; }
 
@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
   text-decoration: none;
   padding: 4px 2px;
-  color: #fff;
+  color: #3C35FA;
   display: inline-block;
   position: relative; }
   a:visited {
@@ -79,7 +79,7 @@ li {
   font-weight: 700; }
 
 img {
-  border: 2px solid #fff; }
+  border: 2px solid #3C35FA; }
 
 .personligt-brev header {
   display: inline-block;
