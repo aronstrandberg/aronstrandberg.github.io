@@ -2,7 +2,7 @@
 
 %vertical-align
   position: relative
-  top: 40%
+  top: 50%
   -webkit-transform: translateY(-50%)
   -ms-transform: translateY(-50%)
   transform: translateY(-50%)
@@ -23,7 +23,7 @@ body
   @media all and (min-width: 700px)
     width: 650px
     font-size: 1.375em
-  margin: 1em auto
+  margin: 0 auto
   text-align: justify
   font-family: $font
   font-style: normal
@@ -32,10 +32,13 @@ body
   background: $background-color
   line-height: 1.6
   font-style: normal
-  padding: 5em 0
+
+@media handheld
+  body
+    padding: 5em 0
 
 h1, h2, h3, h4, h5, h6
-  font-family: $header-font
+  font-family: $font
   font-weight: 700
 
 .index:before
@@ -47,7 +50,6 @@ h1, h2, h3, h4, h5, h6
   height: 280px
   width: 280px
   border-radius: 50%
-  border: 2px solid $text-color
   position: static
   text-align: center
 
@@ -66,8 +68,10 @@ a
   display: inline-block
   position: relative
   &:visited
-    color: inherit
-  &:not(.symbol)::after
+    color: $link-color
+  &:hover
+    color: $link-hover
+  &:not(.ss-icon)::after
     content: ''
     position: absolute
     left: 0
@@ -88,7 +92,7 @@ li
 
 img
   border: 2px solid $text-color
-  
+
 .personligt-brev
   header
     display: inline-block
