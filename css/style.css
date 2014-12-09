@@ -1,6 +1,6 @@
 .single-page .main {
   position: relative;
-  top: 40%;
+  top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
@@ -11,23 +11,25 @@
 body {
   width: 85%;
   font-size: 1.25em;
-  margin: 1em auto;
+  margin: 0 auto;
   text-align: justify;
   font-family: "pt-sans", sans-serif;
   font-style: normal;
   font-weight: 400;
-  color: #3C35FA;
-  background: #fff;
+  color: #1a191b;
+  background: #ffffff;
   line-height: 1.6;
-  font-style: normal;
-  padding: 5em 0; }
+  font-style: normal; }
   @media all and (min-width: 700px) {
     body {
       width: 650px;
       font-size: 1.375em; } }
 
+@media handheld {
+  body {
+    padding: 5em 0; } }
 h1, h2, h3, h4, h5, h6 {
-  font-family: "pt-sans-narrow";
+  font-family: "pt-sans", sans-serif;
   font-weight: 700; }
 
 .index:before {
@@ -39,7 +41,6 @@ h1, h2, h3, h4, h5, h6 {
   height: 280px;
   width: 280px;
   border-radius: 50%;
-  border: 2px solid #3C35FA;
   position: static;
   text-align: center; }
 
@@ -54,12 +55,14 @@ h1, h2, h3, h4, h5, h6 {
 a {
   text-decoration: none;
   padding: 4px 2px;
-  color: #3C35FA;
+  color: #1a191b;
   display: inline-block;
   position: relative; }
   a:visited {
-    color: inherit; }
-  a:not(.symbol)::after {
+    color: #1a191b; }
+  a:hover {
+    color: #e44; }
+  a:not(.ss-icon)::after {
     content: "";
     position: absolute;
     left: 0;
@@ -79,7 +82,7 @@ li {
   font-weight: 700; }
 
 img {
-  border: 2px solid #3C35FA; }
+  border: 2px solid #1a191b; }
 
 .personligt-brev header {
   display: inline-block;
