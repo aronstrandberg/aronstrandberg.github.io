@@ -1,0 +1,61 @@
+@import url(http://fonts.googleapis.com/css?family=Cardo:100,300,400,500,700,900);
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
+@mixin vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+body {
+    font-size: 20px;
+    font-family: 'Roboto', serif;
+    font-weight: 100 !important;
+    background-color: #1a191b;
+    color: #fff;
+    margin: 0 auto;
+    @include vertical-align;
+}
+.container {
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 auto;
+}
+h1 {
+  font-family: "Sketchetik";
+  font-size: 9em;
+  font-weight: 800;
+  margin: 0.5em auto;
+}
+h2 {
+  font-size: 6em;
+}
+h3 {
+  font-size: 4em;
+}
+h4 {
+  font-family: "PT Sans";
+  font-size: 6em;
+  font-weight: 400;
+}
+.timer {
+  font-family: "Roboto";
+  font-size: 6em;
+  font-weight: 100;
+
+}
+h5 {
+
+  font-size: 2em;
+  font-weight: 100;
+}
+
+a {
+    color: #be2221;
+    text-decoration: none;
+}
