@@ -12,8 +12,7 @@
         $('.countdown.styled').countdown({
           date: endDate,
           render: function(data) {
-            $(this.el).html("<h4 class='timer'>" +
-              [
+            $(this.el).html("<h4 class='timer'>" + [
                 this.leadingZeros(data.days, 2),
                 this.leadingZeros(data.hours, 2),
                 this.leadingZeros(data.min, 2),
