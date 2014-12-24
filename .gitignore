@@ -4,6 +4,7 @@
 .DS_Store
 
 .sass-cache
+*.css.map
 
 _site
 
