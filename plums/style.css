@@ -2,6 +2,9 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300);
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Bangers:400);
+@import url(http://fonts.googleapis.com/css?family=Faster+One);
+@import url(http://fonts.googleapis.com/css?family=Fredericka+the+Great);
 
 @mixin vertical-align {
   position: relative;
@@ -12,50 +15,65 @@
 }
 
 body {
-    font-size: 20px;
-    font-family: 'Roboto', serif;
-    font-weight: 100 !important;
-    background-color: #1a191b;
-    color: #fff;
-    margin: 0 auto;
-    @include vertical-align;
+  width: 95vw;
+  font-size: 20px;
+  font-family: 'Roboto', serif;
+  background-color: #1a191b;
+  color: #e5e6e4;
+  margin: 1em auto;
+  @include vertical-align;
 }
 .container {
     text-align: center;
 }
 h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern";
+  -webkit-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern=1";
+  font-kerning: normal;
 }
-h1 {
+.dkm {
+  font-family: "League Spartan";
+  font-size: 6em;
+  /*font-weight: 400;*/
+  margin-bottom: 25px;
+}
+.presenterar {
+  font-family: "Roboto";
+  font-size: 1em;
+  font-weight: 300;
+}
+.plums {
   font-family: "Sketchetik";
+  /*font-family: "Sketchetik";*/
   font-size: 9em;
-  font-weight: 800;
+  font-weight: 100;
   margin: 0.5em auto;
 }
-h2 {
-  font-size: 6em;
-}
-h3 {
-  font-size: 4em;
-}
-h4 {
-  font-family: "PT Sans";
-  font-size: 6em;
-  font-weight: 400;
-}
 .timer {
-  font-family: "Roboto";
+  font-family: "League Spartan";
   font-size: 6em;
-  font-weight: 100;
-
-}
-h5 {
-
-  font-size: 2em;
   font-weight: 100;
 }
 
 a {
-    color: #be2221;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+::selection {
+  color: #1a191b;
+};
+
+@media all and (max-width: 1500px) {
+  body {
+    width: 950px;
+  }
 }

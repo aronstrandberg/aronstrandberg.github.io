@@ -3,22 +3,22 @@
   <head>
     <meta charset="utf-8">
     <title>PLUMS 2015</title>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.js"></script>
     <script type="text/javascript" src="jquery.countdown.js"></script>
-
     <link rel="stylesheet" type="text/css" href="style.css" media="screen">
-
     <script type="text/javascript">
       $(function() {
         var endDate = "Jan 5, 2015 20:00:00";
-
         $('.countdown.styled').countdown({
           date: endDate,
           render: function(data) {
-            // $(this.el).html("<h4 class='timer'>" + this.leadingZeros(data.days, 2) + " " + this.leadingZeros(data.hours, 2) + " " + this.leadingZeros(data.min, 2) + " " + this.leadingZeros(data.sec, 2) + "</h4>");
             $(this.el).html("<h4 class='timer'>" +
-              [this.leadingZeros(data.days, 2), this.leadingZeros(data.hours, 2), this.leadingZeros(data.min, 2), this.leadingZeros(data.sec, 2)]
-              .join(" ") + "</h4>");
+              [
+                this.leadingZeros(data.days, 2),
+                this.leadingZeros(data.hours, 2),
+                this.leadingZeros(data.min, 2),
+                this.leadingZeros(data.sec, 2)
+              ].join(" ") + "</h4>");
           }
         });
       });
@@ -26,19 +26,21 @@
   </head>
   <body>
     <div class="container">
-      <h4>DKM</h4>
-      <h5>PRESENTERAR</h5>
-      <h1>
-        <span style="color: #C80046;">P</span>
-        <span style="color: #C82800;">L</span>
-        <span style="color: #C78200;">U</span>
-        <span style="color: #A1C800;">M</span>
-        <span style="color: #38C800;">S</span>
-        <span style="color: #00C744;"> </span>
-        <span style="color: #00C8AD;">2</span>
-        <span style="color: #0079C8;">0</span>
-        <span style="color: #001CC8;">1</span>
-        <span style="color: #5100C7;">5</span>
+      <img class="dkm" src="dkm.png" width="150px" height="150px">
+      <h5 class="presenterar">PRESENTERAR</h5>
+      <h1 class="plums">
+        <a href="https://www.facebook.com/events/782283221844238/">
+          <span style="color: #C80046;">P</span>
+          <span style="color: #C82800;">L</span>
+          <span style="color: #C78200;">U</span>
+          <span style="color: #A1C800;">M</span>
+          <span style="color: #38C800;">S</span>
+          <span style="color: #00C744;"> </span>
+          <span style="color: #00C8AD;">2</span>
+          <span style="color: #0079C8;">0</span>
+          <span style="color: #001CC8;">1</span>
+          <span style="color: #5100C7;">5</span>
+        </a>
       </h1>
       <div class="countdown styled"></div>
     </div>
