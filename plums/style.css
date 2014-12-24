@@ -35,17 +35,19 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 2em;
   font-weight: 900;
   letter-spacing: 3px;
+  margin-bottom: 1em;
 }
 .plums {
   font-family: "Sketchetik";
   font-size: 9em;
   font-weight: 100;
-  margin: 0.5em auto;
+  /*margin: 0.5em auto;*/
 }
 .timer {
   font-family: "League Spartan";
   font-size: 6em;
   font-weight: 100;
+  margin-top: 0.5em;
 }
 a {
   color: inherit;
@@ -65,6 +67,14 @@ a:visited {
 @media screen and (max-width: 900px) {
   body {
     width: 500px;
+  }
+  .plums {
+    display: inline;
+  }
+}
+@media handheld {
+  body {
+    width: 400px;
   }
 }
 
