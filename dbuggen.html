@@ -5,66 +5,44 @@ permalink: /dbuggen/
 <!DOCTYPE html>
 <html>
 <head>
-  <title>
-    
-  </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>dbuggen</title>
+  <script src="//use.typekit.net/gsq0orq.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
   <style type="text/css">
+  @import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic);
   body {
-    font-family: Futura;
-    margin: 5em auto;
+    font-family: "futura-pt";
+    /*font-family: "PT Sans";*/
+    color: #111;
+    font-weight: 400;
+    margin: 3em auto;
     text-align: center;
   }
   .text {
-    width: 90%;
-    margin: 5em auto; 
+    width: 60%;
+    max-width: 900px;
+    margin: 3em auto; 
   }
-  @media all and (min-width: 600px) {
-    .text {
-      width: 500px;
-    }
+  h1 {
+    font-size: 3em;
+    font-weight: 700;
   }
-
-  @media all and (min-width: 700px) and (orientation: landscape) {
-    .text {
-      width: 80%;
-    }
-    article.two-column {
-      -webkit-columns: 2 200px;
-      columns: 2 200px;
-      -webkit-column-gap: 40px;
-      column-cap: 40px;
-      -webkit-column-rule: 1px dotted #ccc;
-      column-rule: 1px solid #ccc;
-      text-align: justify;
-    }
-  }
-  @media all and (min-width: 1000px) {
-    .text {
-      width: 60%;
-    }
-  }
-  @media screen and (max-width: 600px) {
-    .text {
-      width: 90%;
-    }
-    h1 {
-      font-size: 2em;
-    }
-    p {
-      font-size: 3.5em;
-    }
+  header h1 {
+    font-size: 8em;
+    margin: 1em auto;
+    color: #e2007f;
   }
   article {
-    /*text-align: center;*/
     text-align: justify;
+    margin: 5em auto;
   }
   article h1 {
     -webkit-column-span: all;
     column-span: all;
-    font-size: 3em;
   }
   article footer {
-    font-weight: 300;
     font-style: italic;
   }
   article p {
@@ -78,49 +56,95 @@ permalink: /dbuggen/
   img {
     width: 100vw;
     height: auto;
-    margin: 0 auto;
+    margin: 1em auto;
+  }
+  @media all and (max-width: 600px) {
+    .text {
+      width: 90%;
+    }
+    article h1 {
+      font-size: 2em;
+    }
+    header h1 {
+      font-size: 4em;
+    }
+  }
+  @media all and (min-width: 700px) and (orientation: landscape) {
+    .text {
+      width: 80%;
+    }
+    article.two-column {
+      -webkit-columns: 2 150px;
+              columns: 2 150px;
+      -webkit-column-gap: 40px;
+              column-cap: 40px;
+      -webkit-column-rule: 1px dotted #ccc;
+              column-rule: 1px dotted #ccc;
+      text-align: justify;
+    }
   }
   a {
     color: #e2007f;
     text-decoration: none;
+    display: inline-block;
+    position: relative;
   }
   a:visited {
     color: #e2007f;
   }
   a:hover {
-    text-decoration: underline;
+    color: #00a191;
+  }
+
+  a:hover::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    height: 1em;
+    width: 100%;
+    border-bottom: 1px solid;
+    margin-top: 5px;
+  }
+
+  .text > footer {
+    margin-top: 5em;
+    font-size: 1.2em;
+  }
+  em {
+    font-style: italic;
+    font-weight: 300;
+  }
+
+  b {
+    font-weight: 500;
   }
   </style>
 </head>
 <body>
 <!-- <img src="dbuggen-1-fram-final.png"> -->
-<img src="../dbuggen-1-fram-wide.png">
+<!-- <img src="../dbuggen-1-fram-wide.png"> -->
+<!-- <img src="../dbuggen-1-wide-2.png"> -->
+<img src="../wide.png">
+<header>
+  <h1>dbuggen</h1>
+</header>
 <div class="text">
 <article class="two-column">
 <h1>Nu gör vi nånting pantat</h1>
-<p>
-När den här texten publiceras står jag, förmodligen precis som du, sanslöst berusad, och ser på när någon sorts häxblandning av typ krut, salpeter och svavel (om min snabba googling stämmer) exploderar i luften med massor av bang och boom i fina färger. I själva verket skrev jag den för flera dagar sen, och gjorde så att den publicerades precis nu vid tolvslaget, helt automatiskt. Rätt ballt. Teknologi nuförtiden alltså.
-</p>
+<p>När den här texten publiceras står jag, förmodligen precis som du, sanslöst berusad, och ser på när någon sorts häxblandning av  typ krut, salpeter och svavel (om min snabba googling stämmer) exploderar i luften med massor av bang och boom i fina färger. I själva verket skrev jag den för flera dagar sen, och gjorde så att den publicerades precis nu vid tolvslaget, helt automatiskt.  Rätt ballt. Teknologi nuförtiden alltså. </p>
 
-<p>Nåja, tillbaka till ämnet. Nånting pantat. Jag tror att det är dbuggens slogan i år. Men för att göra nånting riktigt jävla pantat behöver jag människor som hjälper mig panta till det på riktigt. Och det är där ni, mina kära vänner, kommer in i bilden. </p>
+<p>Nåja, tillbaka till ämnet. Nånting pantat. Jag tror att det är dbuggens slogan i år. Men för att göra nånting riktigt jävla pantat behöver jag människor som hjälper mig panta till det på riktigt. Och det är där ni, mina kära vänner, kommer in i bilden. Artiklar, intervjuer, dikter, foton, teckningar, selfies, eller en rolig bild du hittade på internet. Alla bidrag är välkomna. Ribban sitter otroligt lågt. Om man skulle jämföra med ett höjdhopp sitter ribban inte ens på ställningen. <em>Den ligger under mattan</em>. För att återigen citera min föregångare: “Målet är faktisk existens”. Om ni känner att det här låter som nånting för er, sväng förbi <a href="https://www.facebook.com/groups/222183887954703/">dbuggens koja i cyberrymden</a> och säg hej.</p>
 
-<p>Om ni känner att det här låter som nånting för er, sväng förbi dbuggens koja i cyberrymden och slå en pling.</p>
-<br>
-<br>
-<br>
-<p>Ribban sitter otroligt lågt. Om man skulle jämföra med ett höjdhopp sitter ribban inte ens på ställningen. *Den ligger under mattan*. För att återigen citera min föregångare: “Målet är faktisk existens”. Artiklar / intervjuer / dikter / foton / teckningar / selfies / roliga bilder du hittade på internet. Alla bidrag är välkomna. </p>
+<p>För att spinna vidare på den numer inom politiken populära termen “alla ska med”: alla <em>är</em> med. Vare sig de vill eller inte. Du är med. Från och med nu. Bara genom att läsa den här dumma krönikan (är det ens en krönika? jag vet inte, jag kan inte sånt här) har du blivit utvald till den mest exklusiva, mest mytomspunna, och framför allt, mest pantade sekten på Datasektionen. <b>Redaqtionen</b>.</p>
 
-<p>För att spinna vidare på den numer inom politiken populära termen “alla ska med”: alla *är* med. Vare sig de vill eller inte. Du är med. Från och med nu. 
-Bara genom att läsa den här dumma krönikan (är det ens en krönika? jag vet inte, jag kan inte sånt här) har du blivit utvald till den mest exklusiva, mest mytomspunna, och framför allt, mest pantade sekten på Datasektionen. Redaqtionen.
-</p>
-
-<p>Välkommen.</p>
+<p>Välkommen till dbuggen 2015. Det kommer bli ett spännande år.</p>
 
 <footer>
   <p>
     Aron Strandberg
     <br>
-    Chefredaktör 2015. Pantad för alltid.
+    Chefredaktör 2015. För alltid pantad.
   </p>
 </footer>
 </article>
@@ -137,6 +161,11 @@ Bara genom att läsa den här dumma krönikan (är det ens en krönika? jag vet 
   <p>Karl Hungus</p>
 </footer>
 </article>
+<footer>
+  <p>
+    This site was made with <span style='color: rgba(255, 0, 63, 0.8);'>&hearts;</span> by <a href="aronstrandberg.com">Aron Strandberg</a> at KTH, Stockholm.
+  </p>
+</footer>
 </div>
 </body>
 </html>
