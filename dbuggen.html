@@ -31,19 +31,16 @@ permalink: /dbuggen/
   }
   header h1 {
     font-size: 8em;
-    margin: 1em auto;
+    margin: 1em auto 0;
     color: #e2007f;
   }
   article {
     text-align: justify;
     margin: 5em auto;
   }
-  article h1 {
+  article h1,h2,h3,h4 {
     -webkit-column-span: all;
     column-span: all;
-  }
-  article footer {
-    font-style: italic;
   }
   article p {
     margin-top: 0;
@@ -52,6 +49,13 @@ permalink: /dbuggen/
   }
   article footer {
     margin-top: 1em;
+    /*font-style: italic;*/
+    font-weight: 500;
+  }
+  article.dikt p {
+    -webkit-column-break-inside: avoid;
+              page-break-inside: avoid;
+                   break-inside: avoid;
   }
   img {
     width: 100vw;
@@ -67,6 +71,9 @@ permalink: /dbuggen/
     }
     header h1 {
       font-size: 4em;
+    }
+    header h2 {
+      font-size: 1em;
     }
   }
   @media all and (min-width: 700px) and (orientation: landscape) {
@@ -96,7 +103,7 @@ permalink: /dbuggen/
     color: #00a191;
   }
 
-  a:hover::after {
+  a::after {
     content: '';
     position: absolute;
     left: 0;
@@ -113,7 +120,7 @@ permalink: /dbuggen/
   }
   em {
     font-style: italic;
-    font-weight: 300;
+    font-weight: 400;
   }
 
   b {
@@ -122,19 +129,17 @@ permalink: /dbuggen/
   </style>
 </head>
 <body>
-<!-- <img src="dbuggen-1-fram-final.png"> -->
-<!-- <img src="../dbuggen-1-fram-wide.png"> -->
-<!-- <img src="../dbuggen-1-wide-2.png"> -->
 <img src="../wide.png">
 <header>
   <h1>dbuggen</h1>
+  <h2>tidningen din mamma läser på toa</h2>
 </header>
 <div class="text">
 <article class="two-column">
 <h1>Nu gör vi nånting pantat</h1>
-<p>När den här texten publiceras står jag, förmodligen precis som du, sanslöst berusad, och ser på när någon sorts häxblandning av  typ krut, salpeter och svavel (om min snabba googling stämmer) exploderar i luften med massor av bang och boom i fina färger. I själva verket skrev jag den för flera dagar sen, och gjorde så att den publicerades precis nu vid tolvslaget, helt automatiskt.  Rätt ballt. Teknologi nuförtiden alltså. </p>
+<p>När den här texten publiceras står jag, förmodligen precis som du, sanslöst berusad, och ser på när någon sorts häxblandning av  typ krut, salpeter och svavel (om min snabba googling stämmer) exploderar i luften med massor av bang och boom i fina färger. Men i själva verket skrev jag den för flera dagar sen, och gjorde så att den publicerades precis nu vid tolvslaget, helt automatiskt.  Rätt ballt. Teknologi nuförtiden alltså. </p>
 
-<p>Nåja, tillbaka till ämnet. Nånting pantat. Jag tror att det är dbuggens slogan i år. Men för att göra nånting riktigt jävla pantat behöver jag människor som hjälper mig panta till det på riktigt. Och det är där ni, mina kära vänner, kommer in i bilden. Artiklar, intervjuer, dikter, foton, teckningar, selfies, eller en rolig bild du hittade på internet. Alla bidrag är välkomna. Ribban sitter otroligt lågt. Om man skulle jämföra med ett höjdhopp sitter ribban inte ens på ställningen. <em>Den ligger under mattan</em>. För att återigen citera min föregångare: “Målet är faktisk existens”. Om ni känner att det här låter som nånting för er, sväng förbi <a href="https://www.facebook.com/groups/222183887954703/">dbuggens koja i cyberrymden</a> och säg hej.</p>
+<p>Nåja, tillbaka till ämnet. Nånting pantat. Jag tror att det är dbuggens slogan i år. Men för att göra nånting riktigt jävla pantat behöver jag människor som hjälper mig panta till det på riktigt. Och det är där ni, mina kära vänner, kommer in i bilden. Artiklar, intervjuer, dikter, foton, teckningar, selfies, eller en rolig bild du hittade på internet. Alla bidrag är välkomna. Ribban sitter otroligt lågt. Om man skulle jämföra med ett höjdhopp sitter ribban inte ens på ställningen. <em>Den ligger under mattan</em>. För att återigen citera min föregångare: “Målet är faktisk existens”. Om ni känner att det här låter som nånting för er, sväng förbi <a href="https://www.facebook.com/groups/222183887954703/">dbuggens koja i cyberrymden</a> och säg hej. Jag bjuder på fika.</p>
 
 <p>För att spinna vidare på den numer inom politiken populära termen “alla ska med”: alla <em>är</em> med. Vare sig de vill eller inte. Du är med. Från och med nu. Bara genom att läsa den här dumma krönikan (är det ens en krönika? jag vet inte, jag kan inte sånt här) har du blivit utvald till den mest exklusiva, mest mytomspunna, och framför allt, mest pantade sekten på Datasektionen. <b>Redaqtionen</b>.</p>
 
@@ -144,10 +149,11 @@ permalink: /dbuggen/
   <p>
     Aron Strandberg
     <br>
-    Chefredaktör 2015. För alltid pantad.
+    Chefredaktör 2015
   </p>
 </footer>
 </article>
+
 <article class="two-column">
 <h1>Lova för livet</h1>
 <p>Klockan slår 00.00 och fyrverkerierna drar igång. Mitt huvud går på högvarv på två saker: “blir det en nyårskyss?” och “jag måste verkligen dra igång med de där nyårslöftena i år”. Året blir precis 2014 och jag har ett helt år framför mig att göra allt jag någonsin velat göra. Kanske vill jag börja dejta, börja träna eller börja rappa. Möjligheterna är oändliga, men jag måste göra det DET HÄR ÅRET! Men så sitter jag här, året snart slut, 2015 på ingång och tänker “vad åstadkom jag av mina löften egentligen?” och känner att året har gått åt skogen. Att jag nickar instämmande med Instagram-bilderna som säger “2015 ska bli sååååå mycket bättre än 2014”. Jag stannar upp, sätter mig på Google Drive och börjar genast skriva “VAD FAN HAR HÄNT MED MINA LIVSPRIORITERINGAR?!”</p>
@@ -161,6 +167,31 @@ permalink: /dbuggen/
   <p>Karl Hungus</p>
 </footer>
 </article>
+
+<article class="two-column dikt">
+<h1><a href="https://www.facebook.com/events/782283221844238/">Plums15</a></h1>
+<h3>OBS. Hela denna artikel är en annons från Datas Klubbmästeri</h3>
+<p>
+I vatten vi badar, rutschkanerekord slås<br>
+I hopp om att vi ingen skadar, skippar vi alkolås<br>
+År in och år ut väntar alla på ett event<br>
+Vi kan besviket meddela att det nu återvänt<br>
+</p>
+<p>
+Vi förstår inte riktigt hur det kunde bli så stort<br>
+Aja, allt är väl planerat, det kan inte bli ogjort<br>
+En fest där vi med glädje skippar stämton<br>
+"Plask15"? "Dopp15"? Näe...<br>
+</p>
+
+<p><b>PLUMS 2015 / 7 FEB</b><br>
+<b>Biljettsläpp 5 jan / 20:00</b</p>
+<footer>
+  <p>DKM, Shayan Effati</p>
+</footer>
+</article>
+
+
 <footer>
   <p>
     This site was made with <span style='color: rgba(255, 0, 63, 0.8);'>&hearts;</span> by <a href="aronstrandberg.com">Aron Strandberg</a> at KTH, Stockholm.
