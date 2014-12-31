@@ -1,6 +1,6 @@
 ---
 title: dbuggen #1
-permalink: /dbuggen
+permalink: /dbuggen/
 ---
 <!DOCTYPE html>
 <html>
@@ -34,7 +34,7 @@ permalink: /dbuggen
     margin: 1em auto 0;
     color: #e2007f;
   }
-  article {
+  .text > article {
     text-align: justify;
     margin: 5em auto;
   }
@@ -54,22 +54,50 @@ permalink: /dbuggen
     margin-top: 1em;
     font-weight: 500;
   }
-  article.dikt p {
+  article.dikt p, .two-column article {
     -webkit-column-break-inside: avoid;
               page-break-inside: avoid;
                    break-inside: avoid;
   }
-  img {
+  img.hero {
     width: 100vw;
     height: auto;
     margin: 1em auto;
   }
+  img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+  }
+  q {
+    margin-top: 5em;
+    font-size: 2em;
+    font-style: italic;
+    quotes: "\201C" "\201D" "\2018" "\2019";
+  }
+  q:before {
+    content: open-quote;
+  }
+  q:after {
+    content: close-quote;
+  }
+  ::selection {
+    background-color: #e2007f;
+    color: #fff;
+  }
   @media all and (max-width: 600px) {
     .text {
       width: 90%;
+      -webkit-hyphens: auto;
+         -moz-hyphens: auto;
+              hyphens: auto;
     }
     article h1 {
       font-size: 2em;
+    }
+    q {
+      font-size: 1.25em;
     }
     header h1 {
       font-size: 4em;
@@ -82,7 +110,7 @@ permalink: /dbuggen
     .text {
       width: 80%;
     }
-    article.two-column {
+    .two-column {
       -webkit-columns: 2 150px;
               columns: 2 150px;
       -webkit-column-gap: 40px;
@@ -127,14 +155,18 @@ permalink: /dbuggen
   b {
     font-weight: 500;
   }
-  ::selection {
-    background-color: #e2007f;
-    color: #fff;
+
+  ul, ol {
+
+  }
+
+  li {
+    text-align: left;
   }
   </style>
 </head>
 <body>
-<img src="../wide.png">
+<img class="hero" src="../wide.png">
 <header>
   <h1>dbuggen</h1>
   <h2>tidningen din mamma läser på toa</h2>
@@ -177,16 +209,16 @@ permalink: /dbuggen
 <h1><a href="https://www.facebook.com/events/782283221844238/">Plums15</a></h1>
 <h3>OBS. Hela denna artikel är en annons från Datas Klubbmästeri</h3>
 <p>
-I vatten vi badar, rutschkanerekord slås<br>
-I hopp om att vi ingen skadar, skippar vi alkolås<br>
-År in och år ut väntar alla på ett event<br>
-Vi kan besviket meddela att det nu återvänt<br>
+  I vatten vi badar, rutschkanerekord slås<br>
+  I hopp om att vi ingen skadar, skippar vi alkolås<br>
+  År in och år ut väntar alla på ett event<br>
+  Vi kan besviket meddela att det nu återvänt<br>
 </p>
 <p>
-Vi förstår inte riktigt hur det kunde bli så stort<br>
-Aja, allt är väl planerat, det kan inte bli ogjort<br>
-En fest där vi med glädje skippar stämton<br>
-"Plask15"? "Dopp15"? Näe...<br>
+  Vi förstår inte riktigt hur det kunde bli så stort<br>
+  Aja, allt är väl planerat, det kan inte bli ogjort<br>
+  En fest där vi med glädje skippar stämton<br>
+  "Plask15"? "Dopp15"? Näe...<br>
 </p>
 
 <p>
@@ -197,6 +229,50 @@ En fest där vi med glädje skippar stämton<br>
 <footer>
   <p>DKM, Shayan Effati</p>
 </footer>
+</article>
+
+
+<div class="two-column">
+<article>
+  <h1>Topp 4 flygplan som aldrig kom fram 2014</h1>
+  <ul>
+    <li><p>Malaysia Airlines Flight 370</p></li>
+    <li><p>Malaysia Airlines Flight 17</p></li>
+    <li><p>Air Algérie Flight 5017</p></li>
+    <li><p>Indonesia AirAsia Flight 8501</p></li>
+  </ul>
+</article>
+<article>
+  <img src="https://i.imgur.com/pZrlv3p.jpg">
+</article>
+</div>
+
+
+
+<!-- <article>
+  <h1>Mest effektiva sjukdomstrenden 2014: Ebola</h1>
+  <p>
+    <img src="http://images-cdn.9gag.com/photo/aMbx43V_700b.jpg">
+  </p>
+</article>
+ -->
+ <article class="two-column dikt">
+  <h1><a href="https://www.facebook.com/events/1559467324268413/">dÅre 2015</a></h1>
+  <h3>OBS. Hela denna artikel är en annons från dÅre-staben</h3>
+  <h4>Rättelse: Det är Redaqtionen som gör reklam för dÅre, helt utan dÅre-stabens vetande eller godkännande</h4>
+  <p>
+    Eftersom alla bangers nu ÄNTLIGEN har insett att vi inte gillar dem så har de självklart gjort det enda de kan och bangat. Därför har vi fortfarande ett par platser kvar och dessa är öppna även för icke kthare. Så har ni vänner som vill hänga på så är det bara att skicka ett mail till <a href="mailto:dare@d.kth.se">dare@d.kth.se</a>. Nästa steg för att tagga till är att kolla ‪#‎dåre2014‬ på instagram, där finns det lite sköna bilder från förra året
+  </p>
+
+  <p><b>dÅre 2015 / 17–23 jan</b></p>
+  <footer>
+    <p style="text-decoration: line-through;">dÅrestaben, Katja</p>
+    <p>Redaqtionen</p>
+  </footer>
+</article>
+
+<article>
+  <p><q>Att hitta flickvänner är som att hitta parkeringsplatser. Det är bara de handikappade som är lediga.</q></p>
 </article>
 
 <article class="two-column">
@@ -225,7 +301,6 @@ En fest där vi med glädje skippar stämton<br>
   </h2>
 </header>
 <footer class="colophon">
-  
   <p>
     This site was made with <span style='color: rgba(255, 0, 63, 0.8);'>&hearts;</span> by <a href="http://aronstrandberg.com">Aron Strandberg</a> at KTH, Stockholm.
   </p>
