@@ -7,5 +7,10 @@ rdiscount:
   extensions: [smart]
 highlighter: pygments
 
+# sass
+sass:
+  sass_dir: /css
+  style: :expanded
+
 # dev options
 port: 1337
