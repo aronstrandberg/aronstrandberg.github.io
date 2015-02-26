@@ -1,0 +1,78 @@
+---
+title: D · P · R
+permalink: /dpr/
+---
+
+<!doctype html>
+<html>
+<head>
+  <title>D · P · R</title>
+</head>
+<style type="text/css">
+  body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background: #111;
+
+  }
+  .container {
+    width: 90vw;
+    height: 90vh;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+              transform: translateY(-50%); 
+  }
+  img, svg {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: inline;
+  }
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  span {
+    color: #fff;
+    font-size: 500px;
+    position: absolute;
+    top: 17%;
+    right: 3%;
+  }
+</style>
+<body>
+  <div class="container"> 
+    <span class="pie">14.285714286, 14.285714286, 14.285714286, 14.285714286, 14.285714286, 14.285714286, 14.285714286</span>
+  </div>
+  <img src="/spare-time/DPR/CLW_DKM-no-bg.svg">
+  <span>&lt;</span>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="http://ricostacruz.com/jquery.transit/jquery.transit.min.js"></script>
+  <script src="http://benpickles.github.io/peity/jquery.peity.min.js"></script>
+  <script type="text/javascript">
+  $('.pie').peity('pie', {
+    radius: 400,
+    fill: ["#f2777a", "#f99157", "#ffcc66", "#99cc99", "#66cccc", "#6699cc", "#cc99cc"]
+  });
+
+    $("svg, img").click(function() {
+      var deg = 7200 + Math.random() * 3600;
+      console.log(deg);
+      rotate(deg);
+    });
+    function rotate (deg) {
+      $("svg, img").transition({
+        rotate: "-=" + deg + "deg",
+        easing: "easeOutQuint",
+        duration: 15000,
+        delay: 250
+      });
+    }
+  </script>
+</body>
+</html>
