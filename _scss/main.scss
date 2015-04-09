@@ -66,8 +66,10 @@ h2 {
   content: "";
   display: block;
   margin: 50px auto;
-  height: 500px;
-  width: 500px;
+  width: 80vw;
+  height: 80vw;
+  max-width: 500px;
+  max-height: 500px;
   border-radius: 50%;
   position: static;
   text-align: center;
