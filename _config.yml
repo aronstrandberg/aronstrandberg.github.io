@@ -9,7 +9,7 @@ highlighter: pygments
 
 # sass
 sass:
-  sass_dir: /css
+  sass_dir: _scss
   style: :expanded
 
 # dev options

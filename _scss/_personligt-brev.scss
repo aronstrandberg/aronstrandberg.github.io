@@ -1,0 +1,23 @@
+.personligt-brev {
+  margin: 1em auto;
+  header {
+    display: inline-block;
+    margin: 0;
+    width: 60%;
+    &.right {
+      width: 20%;
+      float: right;
+      p {
+        float: right;
+      }
+    }
+    p {
+      margin: 0 auto;
+    }
+  }
+  footer {
+    p {
+      margin: 0;
+    }
+  }
+}
