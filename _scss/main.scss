@@ -56,9 +56,6 @@ h4 {
   font-style: italic;
 }
 
-h2 {
-  margin-top: 1em !important;
-}
 
 .index:before {
   background: url($profile-picture) no-repeat, url(/images/checkers.png) repeat;
@@ -125,17 +122,15 @@ a {
   }
 }
 
-p {
-  margin: 0;
-}
-
 ul {
   padding: 0;
 }
 
-li {
+.social li {
   display: inline;
   padding: 0.5em;
+}
+li {
   list-style: none;
 }
 
