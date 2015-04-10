@@ -88,16 +88,16 @@ h2 {
 
 a {
   text-decoration: none;
-  // padding: 4px 2px;
   padding: 0;
   color: $link-color;
   display: inline-block;
   position: relative;
   -webkit-transition: background 0.3s;
-          transition: background 0.3s;
+           transition: background 0.3s;
 
   &.ss-icon {
     color: $text-color;
+    padding: 5px;
   }
   
   &:not(.ss-icon):hover {
@@ -109,9 +109,11 @@ a {
     color: $link-color;
   }
   &:hover {
+    background: rgba(238,68,68, 0.2);
     // background: rgba(255, 255, 0, 0.3);
   }
-  &:not(.ss-icon)::after {
+  &::after {
+  // &:not(.ss-icon)::after {
     content: "";
     position: absolute;
     left: 0;
@@ -121,9 +123,10 @@ a {
     margin-top: 0.4em;
     border-bottom: 2px solid lighten($text-color, 50%);
   }
+}
 
-  span::after {
-  }
+p {
+  margin: 0;
 }
 
 ul {
