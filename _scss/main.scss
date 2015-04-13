@@ -2,7 +2,7 @@
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
-     -ms-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
             transform: translateY(-50%);
 }
 
@@ -56,7 +56,6 @@ h4 {
   font-style: italic;
 }
 
-
 .index:before {
   background: url($profile-picture) no-repeat, url(/images/checkers.png) repeat;
   background-size: 100%, 16px;
@@ -90,7 +89,7 @@ a {
   display: inline-block;
   position: relative;
   -webkit-transition: background 0.3s;
-           transition: background 0.3s;
+            transition: background 0.3s;
 
   &.ss-icon {
     color: $text-color;
