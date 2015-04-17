@@ -62,15 +62,15 @@ h4 {
   display: block;
   margin: 50px auto;
   @media screen and (orientation: landscape) {
-    width: 80vh;
-    height: 80vh;
+    width: 50vh;
+    height: 50vh;
   }
   @media screen and (orientation: portrait) {
-    width: 80vw;
-    height: 80vw;
+    width: 50vw;
+    height: 50vw;
   }
-  max-width: 500px;
-  max-height: 500px;
+  max-width: 400px;
+  max-height: 400px;
   border-radius: 50%;
   position: static;
   text-align: center;
