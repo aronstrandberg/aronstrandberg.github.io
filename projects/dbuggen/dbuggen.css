@@ -19,11 +19,11 @@
     }
     .two-column {
       -webkit-columns: 2 150px;
-              columns: 2 150px;
+                columns: 2 150px;
       -webkit-column-gap: 40px;
-              column-cap: 40px;
+                column-cap: 40px;
       -webkit-column-rule: 1px dotted #ccc;
-              column-rule: 1px dotted #ccc;
+                column-rule: 1px dotted #ccc;
       text-align: justify;
     }
   }
@@ -59,8 +59,8 @@
   }
   article.dikt p, .two-column article {
     -webkit-column-break-inside: avoid;
-              page-break-inside: avoid;
-                   break-inside: avoid;
+                page-break-inside: avoid;
+                     break-inside: avoid;
   }
   img.hero {
     width: 100vw;
