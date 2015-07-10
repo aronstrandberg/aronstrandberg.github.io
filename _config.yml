@@ -7,6 +7,8 @@ rdiscount:
   extensions: [smart]
 highlighter: pygments
 
+exclude: [projects/dbuggen]
+
 # sass
 sass:
   sass_dir: _scss
