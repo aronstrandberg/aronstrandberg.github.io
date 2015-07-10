@@ -152,3 +152,7 @@
   li {
     text-align: left;
   }
+
+  .heart {
+    color: rgba(255, 0, 63, 0.8);
+  }
