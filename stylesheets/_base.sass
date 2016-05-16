@@ -1,0 +1,73 @@
+$white: #fff
+$black: #212121
+
+$font: "jaf-facitweb"
+$header-name-font: 'source-code-pro'
+$text-color: $white
+$link-color: $white
+
+$wallpaper: "https://upload.wikimedia.org/wikipedia/commons/9/9c/Aldrin_Apollo_11.jpg"
+
+@mixin center-content
+  display: flex
+  align-items: center
+  justify-content: center
+
+@mixin image($url, $fade:true)
+  $amount: .5
+  $color: rgba($black, $amount)
+  @if $fade
+    background: linear-gradient($color, $color), url($url)
+  @else
+    background: url($url)
+  background-size: cover
+  background-position: top center
+  background-repeat: no-repeat
+
+@mixin unsplash($id)
+  @include image("https://source.unsplash.com/#{$id}/")
+
+html
+  margin: 0
+  padding: 0
+
+body
+  margin: 0
+  font-family: $font
+  font-size: 14px
+  color: $text-color
+  line-height: 2
+  @include image($wallpaper)
+
+section
+  margin: 0 auto
+  @include center-content
+  .content
+    width: 80%
+    margin: 0 auto
+    p
+      margin: 0
+
+.header
+  height: 95vh
+  h1
+    font-family: $header-name-font
+    text-transform: uppercase
+    font-weight: 100
+    font-size: 7vh
+    margin: 0 auto
+    padding: 0
+    vertical-align: middle
+
+    em
+      padding: .1em .4em .1em 0
+      font-weight: 700
+
+footer
+  height: 5vh
+  text-align: center
+
+a
+  color: $link-color
+  text-decoration: none
+  border-bottom: 2px solid $link-color

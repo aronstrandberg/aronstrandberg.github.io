@@ -1,18 +1,26 @@
-# site
-site_name: 'Aron Strandberg'
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-# options
-markdown: rdiscount
-rdiscount:
-  extensions: [smart]
-highlighter: pygments
+# Site settings
+title: fats
+email: aron@aronstrandberg.com
+description: > # this means to ignore newlines until "baseurl:"
+    Aron Strandberg is a Swedish software developer.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://fats.xyz" # the base hostname & protocol for your site
+twitter_username: mongoaron
+github_username:  aronstrandberg
 
-exclude: [projects/dbuggen]
+# Build settings
+markdown: kramdown
 
 # sass
 sass:
-  sass_dir: _scss
-  style: :expanded
+  sass_dir: stylesheets
+  style: :compressed
 
-# dev options
-port: 1337
+exclude: [node_modules]

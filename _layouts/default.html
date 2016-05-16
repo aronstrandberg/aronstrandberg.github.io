@@ -1,14 +1,11 @@
 <!doctype html>
-<html lang="en">
-	<head>
-		<title>Aron Strandberg </title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-		{% include css.html %}
-	</head>
-	<body>
-		{{ content }}
-		{% include google-analytics.html %}
-		{% include typekit.html %}
-	</body>
+<html>
+  {% include head.html %}
+  <body>
+    {% include typekit.html %}
+
+    {{ content }}
+
+    {% include footer.html %}
+  </body>
 </html>
