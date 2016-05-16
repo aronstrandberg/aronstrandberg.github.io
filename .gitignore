@@ -1,13 +1,19 @@
-
+# Editor files
 *.sublime-workspace
 *.sublime-project
+
+# OS files
 .DS_Store
 
+# Bundler
+.bundle
+
+# NPM
+node_modules/
+
+# Sass
 .sass-cache
 *.css.map
 
+# Jekyll generated files
 _site
-
-webfonts
-
-cover-letters
