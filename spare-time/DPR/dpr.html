@@ -24,7 +24,7 @@ permalink: /dpr/
     top: 50%;
     -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
-              transform: translateY(-50%); 
+              transform: translateY(-50%);
   }
   img, svg {
     width: 100%;
@@ -46,8 +46,18 @@ permalink: /dpr/
   }
 </style>
 <body>
-  <div class="container"> 
-    <span class="pie">14.285714286, 14.285714286, 14.285714286, 14.285714286, 14.285714286, 14.285714286, 14.285714286</span>
+  <div class="container">
+    <span class="pie">
+    12.5,
+    12.5,
+    12.5,
+    12.5,
+    12.5,
+    12.5,
+    12.5,
+    12.5
+    </span>
+    <!-- 14.285714286, 14.285714286, 14.285714286, 14.285714286, 14.285714286, 14.285714286, 14.285714286 -->
   </div>
   <img src="/spare-time/DPR/CLW_DKM-no-bg.svg">
   <span>&lt;</span>
@@ -57,7 +67,16 @@ permalink: /dpr/
   <script type="text/javascript">
   $('.pie').peity('pie', {
     radius: 400,
-    fill: ["#f2777a", "#f99157", "#ffcc66", "#99cc99", "#66cccc", "#6699cc", "#cc99cc"]
+    fill: [
+    "#01545A",
+    "#017351",
+    "#03C383",
+    "#AAD962",
+    "#FBBF45",
+    "#EF6A32",
+    "#ED0345",
+    "#A12A5E"
+    ]
   });
 
     $("svg, img").click(function() {
