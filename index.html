@@ -2,25 +2,28 @@
 layout: default
 ---
 
-<section class="header">
-  <div class="content">
-    <div class="name">
-      <h1>
-        <em>F</em>rej
-      </h1>
-      <h1>
-        <em>A</em>ron
-      </h1>
-      <h1>
-        <em>T</em>im
-      </h1>
-      <h1>
-        <em>S</em>trandberg
-      </h1>
-    </div>
-    <p>studying computer science at the royal institute of technology.</p>
-    <p>frontend developer at <a href="//sqore.com">sqore</a>.</p>
-    <p><a href="mailto:aron@aronstrandberg.com">aron@aronstrandberg.com</a></p>
-    <p><a href="http://github.com/aronstrandberg">@github</a></p>
+<article class="chapter banner">
+  {% include name.html %}
+
+  <div class="info">
+    <p>
+      <img src="/images/award.svg" />
+      studying computer science at the royal institute of technology
+    </p>
+    <p>
+      <img src="/images/briefcase.svg" />
+      frontend developer at <a href="//sqore.com">sqore</a>
+    </p>
+    <p>
+      <img src="/images/mail.svg" />
+      <a href="mailto:aron@aronstrandberg.com">aron@aronstrandberg.com</a>
+    </p>
+    <p>
+      <img src="/images/github.svg" />
+      <a class="ico" href="http://github.com/aronstrandberg">@aronstrandberg</a>
+    </p>
   </div>
-</section>
+</article>
+
+{% include about.html %}
+

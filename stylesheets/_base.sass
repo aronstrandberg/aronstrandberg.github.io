@@ -1,17 +1,30 @@
 $white: #fff
 $black: #212121
 
-$font: "jaf-facitweb"
-$header-name-font: 'source-code-pro'
+$font: 'jaf-domus'
+$header-name-font: $font
 $text-color: $white
-$link-color: $white
 
-$wallpaper: "https://upload.wikimedia.org/wikipedia/commons/9/9c/Aldrin_Apollo_11.jpg"
+$wallpaper: "http://source.unsplash.com/q8D4JalMsyU/1920x1080"
+
 
 @mixin center-content
   display: flex
   align-items: center
   justify-content: center
+
+@mixin background($background:$wallpaper)
+  &:before
+    content: ""
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    z-index: -1
+    display: block
+    width: 100%
+    height: 100%
+    @include image($background)
 
 @mixin image($url, $fade:true)
   $amount: .5
@@ -27,6 +40,20 @@ $wallpaper: "https://upload.wikimedia.org/wikipedia/commons/9/9c/Aldrin_Apollo_1
 @mixin unsplash($id)
   @include image("https://source.unsplash.com/#{$id}/")
 
+@mixin over($width)
+  @media only screen and (min-width: $width)
+    @content
+
+@mixin link($color: $black, $border: $color)
+  color: $color
+  border-bottom: 1px solid $border
+  &.logo, &.icon
+    border: 0
+
+@mixin hide-on-print
+  @media print
+    display: none
+
 html
   margin: 0
   padding: 0
@@ -34,40 +61,91 @@ html
 body
   margin: 0
   font-family: $font
-  font-size: 14px
+  font-weight: 500
+  font-size: 16px
   color: $text-color
-  line-height: 2
-  @include image($wallpaper)
+  line-height: 1.6
+  display: flex
+  min-height: 100vh
+  flex-direction: column
 
-section
-  margin: 0 auto
+main
+  flex: 1
+
+h1
+  font-size: 2em
+
+p
+  margin: 0
+
+// fix for typekit font flash
+.wf-loading
+  visibility: hidden
+
+article.chapter
+  margin: 10vh auto
+  width: 80%
+  p
+    margin: 0
+
+main
   @include center-content
-  .content
-    width: 80%
-    margin: 0 auto
-    p
-      margin: 0
+  flex-direction: column
+  @include background($wallpaper)
 
-.header
-  height: 95vh
+a
+  @include link($white)
+  text-decoration: none
+  h1 &
+    border: 0
+
+header
+  text-align: center
+  width: 100%
   h1
     font-family: $header-name-font
     text-transform: uppercase
     font-weight: 100
-    font-size: 7vh
+    font-size: 12vmin
     margin: 0 auto
     padding: 0
-    vertical-align: middle
+    line-height: 1.25
 
-    em
-      padding: .1em .4em .1em 0
-      font-weight: 700
+.banner
+  @include center-content
+  flex-direction: column
+  position: fixed
+  top: 0
+  min-height: 80vh
+
+.name
+  margin-bottom: 1em
+
+.info
+  @include center-content
+  flex-direction: column
+  align-items: left
+  img
+    vertical-align: middle
+    width: 20px
+    margin-right: 5px
+
+.links
+  img
+    width: 50px
+    fill: #fff
 
 footer
-  height: 5vh
+  color: $white
+  width: 100%
+  height: 10vh
   text-align: center
+  bottom: 0
+  position: fixed
+  @include center-content
+  @include hide-on-print
 
-a
-  color: $link-color
-  text-decoration: none
-  border-bottom: 2px solid $link-color
+.logo
+  margin-top: 5em
+  width: 100px
+  height: auto
