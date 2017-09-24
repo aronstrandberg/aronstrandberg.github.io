@@ -1,0 +1,92 @@
+{
+  "name": "aronstrandberg/aronstrandberg.github.io",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "aronstrandberg",
+  "branch": "",
+  "style": {
+    "name": "Swiss",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/SwissHeader",
+      "article": "article/SwissArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "heading": {
+      "fontWeight": 700,
+      "letterSpacing": "-0.01em"
+    },
+    "layout": {
+      "fluid": true
+    },
+    "colors": {
+      "text": "#000",
+      "background": "#fff",
+      "primary": "#05a",
+      "secondary": "#444",
+      "highlight": "#f30",
+      "border": "#ccc",
+      "muted": "#eee"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "aronstrandberg.com",
+          "text": "Home"
+        },
+        {
+          "href": "https://github.com/aronstrandberg/aronstrandberg.github.io",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/aronstrandberg.com",
+          "text": "npm"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "aronstrandberg.github.io",
+      "subhead": "My website",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "aronstrandberg.github.io: My website",
+          "url": "aronstrandberg.com"
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "aronstrandberg",
+          "repo": "aronstrandberg.github.io"
+        }
+      ],
+      "text": "v1.0.0"
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<h1><a href=\"http://aronstrandberg.com\">aronstrandberg.com</a></h1>\n<p>It&apos;s my website. Built with Jekyll, hosted on GitHub Pages.</p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/aronstrandberg/aronstrandberg.github.io",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/aronstrandberg",
+          "text": "aronstrandberg"
+        }
+      ]
+    }
+  ]
+}
