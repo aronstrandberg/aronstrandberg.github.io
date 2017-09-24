@@ -5,8 +5,7 @@ $font: 'jaf-domus'
 $header-name-font: $font
 $text-color: $white
 
-$wallpaper: "http://source.unsplash.com/q8D4JalMsyU/1920x1080"
-
+$wallpaper: "http://source.unsplash.com/yNUah8P1seE/2250x3000"
 
 @mixin center-content
   display: flex
@@ -22,8 +21,8 @@ $wallpaper: "http://source.unsplash.com/q8D4JalMsyU/1920x1080"
     right: 0
     z-index: -1
     display: block
-    width: 120%
-    height: 120%
+    width: 100%
+    height: 100%
     @include image($background)
 
 @mixin image($url, $fade:true)
@@ -34,7 +33,7 @@ $wallpaper: "http://source.unsplash.com/q8D4JalMsyU/1920x1080"
   @else
     background: url($url)
   background-size: cover
-  background-position: top left
+  background-position: center 60%
   background-repeat: no-repeat
 
 @mixin unsplash($id)
